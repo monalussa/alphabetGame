@@ -1,0 +1,26 @@
+# Secrets (never commit) — keep *.example files
+.env
+.env.*
+*.env
+!*.example
+!.env.example
+
+# Dependencies / build
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+coverage/
+playwright-report/
+test-results/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Images awaiting license review
+content/images/_incoming/
