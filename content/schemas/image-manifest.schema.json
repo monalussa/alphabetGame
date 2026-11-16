@@ -3,26 +3,83 @@
   "$id": "image-manifest.schema.json",
   "title": "Provenance and license of every picture",
   "type": "object",
-  "required": ["images"],
+  "required": [
+    "images"
+  ],
   "additionalProperties": false,
   "properties": {
-    "$schema": { "type": "string" },
+    "$schema": {
+      "type": "string"
+    },
     "images": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["imageId", "file", "sourceUrl", "author", "license", "licenseUrl", "modified", "reviewedBy", "reviewedAt"],
+        "required": [
+          "imageId",
+          "file",
+          "sourceUrl",
+          "author",
+          "license",
+          "licenseUrl",
+          "modified",
+          "reviewedBy",
+          "reviewedAt"
+        ],
         "additionalProperties": false,
         "properties": {
-          "imageId": { "$ref": "defs.schema.json#/$defs/id" },
-          "file": { "type": "string", "pattern": "^[a-z0-9_]{1,40}\\.svg$" },
-          "sourceUrl": { "type": "string", "pattern": "^https://" },
-          "author": { "$ref": "defs.schema.json#/$defs/shortText" },
-          "license": { "enum": ["CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "MIT", "Apache-2.0", "OWN-WORK"] },
-          "licenseUrl": { "type": "string", "pattern": "^https://" },
-          "modified": { "type": "boolean" },
-          "reviewedBy": { "type": ["string", "null"] },
-          "reviewedAt": { "type": ["string", "null"], "format": "date" }
+          "imageId": {
+            "$ref": "defs.schema.json#/$defs/id"
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]{1,40}\\.svg$"
+          },
+          "sourceUrl": {
+            "description": "Original source page, or 'own-work' for pictures made in this project",
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^https://"
+              },
+              {
+                "const": "own-work"
+              }
+            ]
+          },
+          "author": {
+            "$ref": "defs.schema.json#/$defs/shortText"
+          },
+          "license": {
+            "enum": [
+              "CC0-1.0",
+              "CC-BY-4.0",
+              "CC-BY-SA-4.0",
+              "MIT",
+              "Apache-2.0",
+              "OWN-WORK"
+            ]
+          },
+          "licenseUrl": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "modified": {
+            "type": "boolean"
+          },
+          "reviewedBy": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewedAt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          }
         }
       }
     }

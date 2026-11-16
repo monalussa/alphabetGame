@@ -43,6 +43,19 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     record.add_argument("--port", type=int, default=8765)
     record.set_defaults(handler=run_record)
 
+    images = commands.add_parser("images", help="fetch, preview and approve pictures")
+    image_commands = images.add_subparsers(required=True)
+    fetch = image_commands.add_parser("fetch", help="download OpenMoji pictures to review")
+    fetch.set_defaults(handler=run_images_fetch)
+    preview = image_commands.add_parser("preview", help="write a contact sheet of pending pictures")
+    preview.add_argument("--language", default="fr")
+    preview.set_defaults(handler=run_images_preview)
+    approve = image_commands.add_parser("approve", help="approve reviewed pictures")
+    approve.add_argument("image_ids", nargs="*")
+    approve.add_argument("--all", action="store_true", help="approve every pending picture")
+    approve.add_argument("--reviewer", required=True)
+    approve.set_defaults(handler=run_images_approve)
+
     fun = commands.add_parser("fun-sounds", help="synthesize the fun sounds")
     fun.set_defaults(handler=run_fun_sounds)
     return parser.parse_args(argv)
@@ -119,4 +132,41 @@ def run_record(args: argparse.Namespace, paths: ContentPaths) -> int:
         print(f"cannot record for '{args.language}'", file=sys.stderr)
         return EXIT_INVALID
     serve(language, paths, args.port)
+    return EXIT_OK
+
+
+def run_images_fetch(_args: argparse.Namespace, paths: ContentPaths) -> int:
+    from alphabet_tools.images.approval import approved_image_ids
+    from alphabet_tools.images.openmoji import fetch_openmoji
+
+    report = fetch_openmoji(paths, approved_image_ids(paths))
+    for rejection in report.rejected:
+        print(f"REJECTED {rejection}", file=sys.stderr)
+    print(f"{len(report.downloaded)} downloaded, {len(report.skipped)} already present")
+    return EXIT_INVALID if report.rejected else EXIT_OK
+
+
+def run_images_preview(args: argparse.Namespace, paths: ContentPaths) -> int:
+    from alphabet_tools.images.preview import write_preview
+
+    content, _ = load_content(paths)
+    print(f"open {write_preview(paths, content, args.language)}")
+    return EXIT_OK
+
+
+def run_images_approve(args: argparse.Namespace, paths: ContentPaths) -> int:
+    from alphabet_tools.images.approval import ApprovalError, approve_images
+    from alphabet_tools.images.pending import read_pending
+    from alphabet_tools.images.svg_safety import UnsafeSvgError
+
+    image_ids = sorted(read_pending(paths)) if args.all else args.image_ids
+    if not image_ids:
+        print("nothing to approve", file=sys.stderr)
+        return EXIT_INVALID
+    try:
+        approved = approve_images(paths, image_ids, args.reviewer)
+    except (ApprovalError, UnsafeSvgError) as exc:
+        print(f"approval failed: {exc}", file=sys.stderr)
+        return EXIT_INVALID
+    print(f"approved {len(approved)} pictures")
     return EXIT_OK

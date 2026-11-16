@@ -1,6 +1,7 @@
 import unicodedata
 from collections import Counter
 
+from alphabet_tools.images.svg_safety import find_problems
 from alphabet_tools.issues import Issue, error, warning
 from alphabet_tools.model import Content, Language, Letter
 from alphabet_tools.paths import ContentPaths
@@ -19,6 +20,18 @@ def check_content(content: Content, paths: ContentPaths) -> list[Issue]:
         issues += check_concept_references(language, content)
     issues += check_ui_keys(content)
     issues += check_concepts(content, paths)
+    issues += check_image_files(content, paths)
+    return issues
+
+
+def check_image_files(content: Content, paths: ContentPaths) -> list[Issue]:
+    issues: list[Issue] = []
+    for record in content.images.values():
+        file = paths.images_dir / record.file
+        if not file.is_file():
+            issues.append(error(f"images/{record.file}", "file is missing"))
+            continue
+        issues += [error(f"images/{record.file}", p) for p in find_problems(file.read_bytes())]
     return issues
 
 

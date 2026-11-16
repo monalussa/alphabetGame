@@ -46,6 +46,19 @@ Kenney (CC0) · Wikimedia Commons (check each file's own license) · freesound.o
 `license` uses SPDX ids. `reviewedBy`/`reviewedAt` are filled only after license-reviewer approval.
 The build fails for any file without an approved, reviewed record.
 
+## Workflow (commands run from `tools/`)
+
+1. Map concepts to OpenMoji hexcodes in `content/images/sources/openmoji.json` (pinned release commit).
+2. `uv run alphabet-content images fetch` — downloads into `content/images/_incoming/` (gitignored);
+   every file must pass the SVG safety check or it is rejected.
+3. Own drawings: write the SVG into `_incoming/` and add a pending record with `"sourceUrl": "own-work"`.
+4. `uv run alphabet-content images preview` — contact sheet `_incoming/preview.html`. **Show it to the owner
+   before approving** (the owner wants to see samples before anything is added in bulk).
+5. `uv run alphabet-content images approve <ids…> | --all --reviewer "<who>"` — moves files, writes the
+   manifest record and links the concept. `alphabet-content validate` re-checks every SVG.
+
+Chosen style: **OpenMoji** (owner's choice, 2026-11-16). Keep new pictures consistent with it.
+
 ## SVG safety
 
 Downloaded SVGs are untrusted. Before review, remove `<script>`, `on*=` attributes, `<foreignObject>`,
