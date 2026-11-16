@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+# Blocks commits that contain secrets. Installed by `npm install` (core.hooksPath).
+set -eu
+
+if ! command -v gitleaks >/dev/null 2>&1; then
+  echo "pre-commit: gitleaks is not installed — commit blocked." >&2
+  echo "Install: https://github.com/gitleaks/gitleaks/releases (verify the checksum)." >&2
+  exit 1
+fi
+
+gitleaks git --pre-commit --staged --redact --no-banner .

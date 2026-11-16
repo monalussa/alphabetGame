@@ -1,5 +1,22 @@
 # alphabetGame
 
-Browser app for kids learning letters (French, Croatian, English): press a key, see a picture, hear the word.
+Browser app for kids learning letters (French, Croatian, English): press a key, meet the letter's
+character, see a picture and hear the word. Static site, no tracking, works offline (planned).
 
-Status: planning — word list under review in `content/words-review.txt`.
+## Setup
+
+```sh
+nvm use            # Node version from .nvmrc
+npm ci             # also installs the git pre-commit hook (needs gitleaks)
+npm run dev
+```
+
+## Checks
+
+```sh
+npm run verify     # format, lint, typecheck, unit tests, build
+npm run test:e2e   # Playwright against the production build
+```
+
+See `CLAUDE.md` for architecture and rules, `SECURITY.md` for the threat model.
+Status: Phase 1 (scaffold). Word list under review in `content/words-review.txt`.
