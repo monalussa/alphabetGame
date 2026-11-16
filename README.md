@@ -3,6 +3,13 @@
 Browser app for kids learning letters (French, Croatian, English): press a key, meet the letter's
 character, see a picture and hear the word. Static site, no tracking, works offline (planned).
 
+## Play it (this computer only)
+```sh
+./scripts/play.sh            # opens http://127.0.0.1:8080 in your browser; Ctrl+C to stop
+./scripts/play.sh --rebuild  # rebuild first after changes
+```
+Click ▶, then press letters. To leave the game, hold the ⚙ button for 3 seconds.
+
 ## Setup
 
 ```sh
