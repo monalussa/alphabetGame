@@ -1,4 +1,4 @@
-# LetterPlay
+# alphabetGame
 
 Browser app for kids learning letters (French, Croatian, English): press a key, see a picture, hear the word.
 
