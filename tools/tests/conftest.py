@@ -65,6 +65,7 @@ def write_language(content_paths: ContentPaths) -> LanguageWriter:
                 "name": code.upper(),
                 "locale": f"{code}-{code.upper()}",
                 "matchAccentedInitials": match_accents,
+                "isPublished": True,
                 "audio": audio or {"source": "recording"},
             },
         )

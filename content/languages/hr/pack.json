@@ -4,6 +4,7 @@
   "name": "Hrvatski",
   "locale": "hr-HR",
   "matchAccentedInitials": false,
+  "isPublished": false,
   "audio": {
     "source": "recording"
   }

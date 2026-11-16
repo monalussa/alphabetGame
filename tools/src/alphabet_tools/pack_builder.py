@@ -25,7 +25,7 @@ def build_packs(content: Content, paths: ContentPaths) -> list[Path]:
     clean_output(paths.output_dir)
     written = [write_json(paths.output_dir / "packs" / "index.json", build_index(content))]
     fun_sounds = copy_fun_sounds(paths)
-    for language in content.languages.values():
+    for language in published_languages(content):
         pack = build_language_pack(language, content, paths, fun_sounds)
         written.append(write_json(paths.output_dir / "packs" / f"{language.code}.json", pack))
     copy_reviewed_images(content, paths)
@@ -44,9 +44,13 @@ def build_index(content: Content) -> dict[str, Any]:
         "schemaVersion": RUNTIME_SCHEMA_VERSION,
         "languages": [
             {"code": language.code, "name": language.name}
-            for language in content.languages.values()
+            for language in published_languages(content)
         ],
     }
+
+
+def published_languages(content: Content) -> list[Language]:
+    return [language for language in content.languages.values() if language.is_published]
 
 
 def build_language_pack(

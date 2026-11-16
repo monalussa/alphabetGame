@@ -158,6 +158,7 @@ def test_pack_code_must_match_folder_name(content_paths: ContentPaths, french: P
             "name": "X",
             "locale": "en-US",
             "matchAccentedInitials": False,
+            "isPublished": True,
             "audio": {"source": "recording"},
         },
     )

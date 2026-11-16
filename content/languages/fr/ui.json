@@ -5,6 +5,7 @@
     "start.play": "Jouer",
     "game.smash.title": "Tape les lettres",
     "language.label": "Langue",
-    "parent.hold": "Parents : maintenir appuyé"
+    "parent.hold": "Parents : maintenir appuyé",
+    "game.smash.hint": "Appuie sur une lettre !"
   }
 }

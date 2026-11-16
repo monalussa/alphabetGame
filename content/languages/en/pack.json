@@ -4,6 +4,7 @@
   "name": "English",
   "locale": "en-US",
   "matchAccentedInitials": false,
+  "isPublished": false,
   "audio": {
     "source": "piper",
     "voice": "en_US-ljspeech-high"

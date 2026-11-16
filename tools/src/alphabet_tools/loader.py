@@ -86,6 +86,7 @@ def load_language(language_dir: Path, schemas: SchemaSet, issues: list[Issue]) -
         name=pack["name"],
         locale=pack["locale"],
         should_match_accented_initials=pack["matchAccentedInitials"],
+        is_published=pack["isPublished"],
         audio=parse_audio_config(pack["audio"]),
         letters=tuple(parse_letter(item) for item in letters["letters"]),
         ui_strings=dict(ui["strings"]),

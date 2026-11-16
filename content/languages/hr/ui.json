@@ -5,6 +5,7 @@
     "start.play": "Igraj",
     "game.smash.title": "Tipkaj slova",
     "language.label": "Jezik",
-    "parent.hold": "Roditelji: držite pritisnuto"
+    "parent.hold": "Roditelji: držite pritisnuto",
+    "game.smash.hint": "Pritisni slovo!"
   }
 }

@@ -4,6 +4,7 @@
   "name": "Français",
   "locale": "fr-FR",
   "matchAccentedInitials": true,
+  "isPublished": true,
   "audio": {
     "source": "piper",
     "voice": "fr_FR-siwis-medium"

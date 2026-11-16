@@ -52,6 +52,7 @@ class Language:
     name: str
     locale: str
     should_match_accented_initials: bool
+    is_published: bool
     audio: AudioConfig
     letters: tuple[Letter, ...]
     ui_strings: dict[str, str]

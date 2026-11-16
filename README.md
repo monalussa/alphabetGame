@@ -19,4 +19,4 @@ npm run test:e2e   # Playwright against the production build
 ```
 
 See `CLAUDE.md` for architecture and rules, `SECURITY.md` for the threat model.
-Status: French first — content, audio (Piper) and pictures (OpenMoji) done; game next. HR waits for recordings.
+Status: French playable — keyboard game with OpenMoji pictures and Piper voice. HR and EN come next, step by step.

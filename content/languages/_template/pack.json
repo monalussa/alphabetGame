@@ -4,6 +4,7 @@
   "name": "Language name",
   "locale": "xx-XX",
   "matchAccentedInitials": false,
+  "isPublished": false,
   "audio": {
     "source": "recording"
   }

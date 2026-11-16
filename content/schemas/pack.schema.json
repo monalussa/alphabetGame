@@ -3,36 +3,75 @@
   "$id": "pack.schema.json",
   "title": "Language pack metadata",
   "type": "object",
-  "required": ["code", "name", "locale", "matchAccentedInitials", "audio"],
+  "required": [
+    "code",
+    "name",
+    "locale",
+    "matchAccentedInitials",
+    "audio",
+    "isPublished"
+  ],
   "additionalProperties": false,
   "properties": {
-    "$schema": { "type": "string" },
-    "code": { "type": "string", "pattern": "^[a-z]{2}$" },
-    "name": { "$ref": "defs.schema.json#/$defs/shortText" },
-    "locale": { "type": "string", "pattern": "^[a-z]{2}-[A-Z]{2}$" },
+    "$schema": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$"
+    },
+    "name": {
+      "$ref": "defs.schema.json#/$defs/shortText"
+    },
+    "locale": {
+      "type": "string",
+      "pattern": "^[a-z]{2}-[A-Z]{2}$"
+    },
     "matchAccentedInitials": {
       "type": "boolean",
-      "description": "If true, 'éléphant' may belong to letter 'e' (French). Must be false where accented letters are separate letters (Croatian č ≠ c)."
+      "description": "If true, '\u00e9l\u00e9phant' may belong to letter 'e' (French). Must be false where accented letters are separate letters (Croatian \u010d \u2260 c)."
     },
     "audio": {
       "oneOf": [
         {
           "type": "object",
-          "required": ["source", "voice"],
+          "required": [
+            "source",
+            "voice"
+          ],
           "additionalProperties": false,
           "properties": {
-            "source": { "const": "piper" },
-            "voice": { "type": "string", "pattern": "^[a-z]{2}_[A-Z]{2}-[a-z0-9_]+-(x_low|low|medium|high)$" },
-            "lengthScale": { "type": "number", "minimum": 0.5, "maximum": 2 }
+            "source": {
+              "const": "piper"
+            },
+            "voice": {
+              "type": "string",
+              "pattern": "^[a-z]{2}_[A-Z]{2}-[a-z0-9_]+-(x_low|low|medium|high)$"
+            },
+            "lengthScale": {
+              "type": "number",
+              "minimum": 0.5,
+              "maximum": 2
+            }
           }
         },
         {
           "type": "object",
-          "required": ["source"],
+          "required": [
+            "source"
+          ],
           "additionalProperties": false,
-          "properties": { "source": { "const": "recording" } }
+          "properties": {
+            "source": {
+              "const": "recording"
+            }
+          }
         }
       ]
+    },
+    "isPublished": {
+      "type": "boolean",
+      "description": "Only published languages appear in the app; drafts are validated but not shipped."
     }
   }
 }
