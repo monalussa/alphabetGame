@@ -1,0 +1,665 @@
+{
+  "$schema": "../../schemas/letters.schema.json",
+  "letters": [
+    {
+      "id": "a",
+      "letter": "a",
+      "display": "A a",
+      "name": "ay",
+      "keys": [
+        "a"
+      ],
+      "words": [
+        {
+          "id": "apple",
+          "text": "apple",
+          "concept": "apple"
+        },
+        {
+          "id": "ant",
+          "text": "ant",
+          "concept": "ant"
+        },
+        {
+          "id": "alligator",
+          "text": "alligator",
+          "concept": "alligator"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "letter": "b",
+      "display": "B b",
+      "name": "bee",
+      "keys": [
+        "b"
+      ],
+      "words": [
+        {
+          "id": "ball",
+          "text": "ball",
+          "concept": "ball"
+        },
+        {
+          "id": "banana",
+          "text": "banana",
+          "concept": "banana"
+        },
+        {
+          "id": "bear",
+          "text": "bear",
+          "concept": "bear"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "letter": "c",
+      "display": "C c",
+      "name": "see",
+      "keys": [
+        "c"
+      ],
+      "words": [
+        {
+          "id": "cat",
+          "text": "cat",
+          "concept": "cat"
+        },
+        {
+          "id": "car",
+          "text": "car",
+          "concept": "car"
+        },
+        {
+          "id": "cake",
+          "text": "cake",
+          "concept": "cake"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "letter": "d",
+      "display": "D d",
+      "name": "dee",
+      "keys": [
+        "d"
+      ],
+      "words": [
+        {
+          "id": "dog",
+          "text": "dog",
+          "concept": "dog"
+        },
+        {
+          "id": "duck",
+          "text": "duck",
+          "concept": "duck"
+        },
+        {
+          "id": "drum",
+          "text": "drum",
+          "concept": "drum"
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "letter": "e",
+      "display": "E e",
+      "name": "ee",
+      "keys": [
+        "e"
+      ],
+      "words": [
+        {
+          "id": "egg",
+          "text": "egg",
+          "concept": "egg"
+        },
+        {
+          "id": "elephant",
+          "text": "elephant",
+          "concept": "elephant"
+        },
+        {
+          "id": "elf",
+          "text": "elf",
+          "concept": "elf"
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "letter": "f",
+      "display": "F f",
+      "name": "eff",
+      "keys": [
+        "f"
+      ],
+      "words": [
+        {
+          "id": "fish",
+          "text": "fish",
+          "concept": "fish"
+        },
+        {
+          "id": "frog",
+          "text": "frog",
+          "concept": "frog"
+        },
+        {
+          "id": "flower",
+          "text": "flower",
+          "concept": "flower"
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "letter": "g",
+      "display": "G g",
+      "name": "jee",
+      "keys": [
+        "g"
+      ],
+      "words": [
+        {
+          "id": "goat",
+          "text": "goat",
+          "concept": "goat"
+        },
+        {
+          "id": "grapes",
+          "text": "grapes",
+          "concept": "grapes"
+        },
+        {
+          "id": "guitar",
+          "text": "guitar",
+          "concept": "guitar"
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "letter": "h",
+      "display": "H h",
+      "name": "aitch",
+      "keys": [
+        "h"
+      ],
+      "words": [
+        {
+          "id": "hat",
+          "text": "hat",
+          "concept": "hat"
+        },
+        {
+          "id": "house",
+          "text": "house",
+          "concept": "house"
+        },
+        {
+          "id": "horse",
+          "text": "horse",
+          "concept": "horse"
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "letter": "i",
+      "display": "I i",
+      "name": "eye",
+      "keys": [
+        "i"
+      ],
+      "words": [
+        {
+          "id": "igloo",
+          "text": "igloo",
+          "concept": "igloo"
+        },
+        {
+          "id": "insect",
+          "text": "insect",
+          "concept": "insect"
+        },
+        {
+          "id": "iguana",
+          "text": "iguana",
+          "concept": "iguana"
+        }
+      ]
+    },
+    {
+      "id": "j",
+      "letter": "j",
+      "display": "J j",
+      "name": "jay",
+      "keys": [
+        "j"
+      ],
+      "words": [
+        {
+          "id": "jellyfish",
+          "text": "jellyfish",
+          "concept": "jellyfish"
+        },
+        {
+          "id": "jam",
+          "text": "jam",
+          "concept": "jam"
+        },
+        {
+          "id": "juice",
+          "text": "juice",
+          "concept": "juice"
+        }
+      ]
+    },
+    {
+      "id": "k",
+      "letter": "k",
+      "display": "K k",
+      "name": "kay",
+      "keys": [
+        "k"
+      ],
+      "words": [
+        {
+          "id": "kite",
+          "text": "kite",
+          "concept": "kite"
+        },
+        {
+          "id": "key",
+          "text": "key",
+          "concept": "key"
+        },
+        {
+          "id": "kangaroo",
+          "text": "kangaroo",
+          "concept": "kangaroo"
+        }
+      ]
+    },
+    {
+      "id": "l",
+      "letter": "l",
+      "display": "L l",
+      "name": "el",
+      "keys": [
+        "l"
+      ],
+      "words": [
+        {
+          "id": "lion",
+          "text": "lion",
+          "concept": "lion"
+        },
+        {
+          "id": "leaf",
+          "text": "leaf",
+          "concept": "leaf"
+        },
+        {
+          "id": "lemon",
+          "text": "lemon",
+          "concept": "lemon"
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "letter": "m",
+      "display": "M m",
+      "name": "em",
+      "keys": [
+        "m"
+      ],
+      "words": [
+        {
+          "id": "moon",
+          "text": "moon",
+          "concept": "moon"
+        },
+        {
+          "id": "mouse",
+          "text": "mouse",
+          "concept": "mouse"
+        },
+        {
+          "id": "monkey",
+          "text": "monkey",
+          "concept": "monkey"
+        }
+      ]
+    },
+    {
+      "id": "n",
+      "letter": "n",
+      "display": "N n",
+      "name": "en",
+      "keys": [
+        "n"
+      ],
+      "words": [
+        {
+          "id": "nest",
+          "text": "nest",
+          "concept": "nest"
+        },
+        {
+          "id": "nose",
+          "text": "nose",
+          "concept": "nose"
+        },
+        {
+          "id": "net",
+          "text": "net",
+          "concept": "net"
+        }
+      ]
+    },
+    {
+      "id": "o",
+      "letter": "o",
+      "display": "O o",
+      "name": "oh",
+      "keys": [
+        "o"
+      ],
+      "words": [
+        {
+          "id": "octopus",
+          "text": "octopus",
+          "concept": "octopus"
+        },
+        {
+          "id": "otter",
+          "text": "otter",
+          "concept": "otter"
+        },
+        {
+          "id": "ostrich",
+          "text": "ostrich",
+          "concept": "ostrich"
+        }
+      ]
+    },
+    {
+      "id": "p",
+      "letter": "p",
+      "display": "P p",
+      "name": "pee",
+      "keys": [
+        "p"
+      ],
+      "words": [
+        {
+          "id": "pig",
+          "text": "pig",
+          "concept": "pig"
+        },
+        {
+          "id": "penguin",
+          "text": "penguin",
+          "concept": "penguin"
+        },
+        {
+          "id": "pear",
+          "text": "pear",
+          "concept": "pear"
+        }
+      ]
+    },
+    {
+      "id": "q",
+      "letter": "q",
+      "display": "Q q",
+      "name": "cue",
+      "keys": [
+        "q"
+      ],
+      "words": [
+        {
+          "id": "queen",
+          "text": "queen",
+          "concept": "queen"
+        },
+        {
+          "id": "quilt",
+          "text": "quilt",
+          "concept": "quilt"
+        },
+        {
+          "id": "quail",
+          "text": "quail",
+          "concept": "quail"
+        }
+      ]
+    },
+    {
+      "id": "r",
+      "letter": "r",
+      "display": "R r",
+      "name": "ar",
+      "keys": [
+        "r"
+      ],
+      "words": [
+        {
+          "id": "rabbit",
+          "text": "rabbit",
+          "concept": "rabbit"
+        },
+        {
+          "id": "rainbow",
+          "text": "rainbow",
+          "concept": "rainbow"
+        },
+        {
+          "id": "robot",
+          "text": "robot",
+          "concept": "robot"
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "letter": "s",
+      "display": "S s",
+      "name": "ess",
+      "keys": [
+        "s"
+      ],
+      "words": [
+        {
+          "id": "sun",
+          "text": "sun",
+          "concept": "sun"
+        },
+        {
+          "id": "snake",
+          "text": "snake",
+          "concept": "snake"
+        },
+        {
+          "id": "sock",
+          "text": "sock",
+          "concept": "sock"
+        }
+      ]
+    },
+    {
+      "id": "t",
+      "letter": "t",
+      "display": "T t",
+      "name": "tee",
+      "keys": [
+        "t"
+      ],
+      "words": [
+        {
+          "id": "tiger",
+          "text": "tiger",
+          "concept": "tiger"
+        },
+        {
+          "id": "tree",
+          "text": "tree",
+          "concept": "tree"
+        },
+        {
+          "id": "train",
+          "text": "train",
+          "concept": "train"
+        }
+      ]
+    },
+    {
+      "id": "u",
+      "letter": "u",
+      "display": "U u",
+      "name": "you",
+      "keys": [
+        "u"
+      ],
+      "words": [
+        {
+          "id": "umbrella",
+          "text": "umbrella",
+          "concept": "umbrella"
+        },
+        {
+          "id": "unicorn",
+          "text": "unicorn",
+          "concept": "unicorn"
+        },
+        {
+          "id": "ukulele",
+          "text": "ukulele",
+          "concept": "ukulele"
+        }
+      ]
+    },
+    {
+      "id": "v",
+      "letter": "v",
+      "display": "V v",
+      "name": "vee",
+      "keys": [
+        "v"
+      ],
+      "words": [
+        {
+          "id": "van",
+          "text": "van",
+          "concept": "van"
+        },
+        {
+          "id": "violin",
+          "text": "violin",
+          "concept": "violin"
+        },
+        {
+          "id": "volcano",
+          "text": "volcano",
+          "concept": "volcano"
+        }
+      ]
+    },
+    {
+      "id": "w",
+      "letter": "w",
+      "display": "W w",
+      "name": "double you",
+      "keys": [
+        "w"
+      ],
+      "words": [
+        {
+          "id": "whale",
+          "text": "whale",
+          "concept": "whale"
+        },
+        {
+          "id": "worm",
+          "text": "worm",
+          "concept": "worm"
+        },
+        {
+          "id": "watermelon",
+          "text": "watermelon",
+          "concept": "watermelon"
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "letter": "x",
+      "display": "X x",
+      "name": "ex",
+      "keys": [
+        "x"
+      ],
+      "skip": true
+    },
+    {
+      "id": "y",
+      "letter": "y",
+      "display": "Y y",
+      "name": "why",
+      "keys": [
+        "y"
+      ],
+      "words": [
+        {
+          "id": "yoyo",
+          "text": "yo-yo",
+          "concept": "yoyo"
+        },
+        {
+          "id": "yak",
+          "text": "yak",
+          "concept": "yak"
+        },
+        {
+          "id": "yogurt",
+          "text": "yogurt",
+          "concept": "yogurt"
+        }
+      ]
+    },
+    {
+      "id": "z",
+      "letter": "z",
+      "display": "Z z",
+      "name": "zee",
+      "keys": [
+        "z"
+      ],
+      "words": [
+        {
+          "id": "zebra",
+          "text": "zebra",
+          "concept": "zebra"
+        },
+        {
+          "id": "zoo",
+          "text": "zoo",
+          "concept": "zoo"
+        },
+        {
+          "id": "zipper",
+          "text": "zipper",
+          "concept": "zipper"
+        }
+      ]
+    }
+  ]
+}

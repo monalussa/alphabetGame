@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "audio-manifest.schema.json",
+  "title": "Generated audio of one language (written by tools, not by hand)",
+  "type": "object",
+  "required": ["clips"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "clips": {
+      "type": "object",
+      "propertyNames": { "pattern": "^(letter|char|word)_[a-z0-9_]{1,40}$" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["text", "source", "fingerprint"],
+        "additionalProperties": false,
+        "properties": {
+          "text": { "type": "string" },
+          "source": { "type": "string", "pattern": "^(piper:[A-Za-z0-9_-]+|recording)$" },
+          "fingerprint": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    }
+  }
+}

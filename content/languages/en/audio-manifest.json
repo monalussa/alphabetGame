@@ -1,0 +1,510 @@
+{
+  "$schema": "../../schemas/audio-manifest.schema.json",
+  "clips": {
+    "letter_a": {
+      "text": "ay",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "4aa82f8f248c5b9e801e39fae0ee55511b4f16782903e9861a04c05c43856c8a"
+    },
+    "letter_b": {
+      "text": "bee",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "94f4c6d0b73beaaaa623def2defe0ebff68a5ece6d2c8b3d32bc4fc9740300ac"
+    },
+    "letter_c": {
+      "text": "see",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "e1afc3213e3d71060bd058ad939f85bd0999327a056364d1203bf0e09c40efa4"
+    },
+    "letter_d": {
+      "text": "dee",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "fece19609867bb1702344db740de3afc8539828ce3f6a03cc21d9152953e9ca9"
+    },
+    "letter_e": {
+      "text": "ee",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6dffdd791e19a2412c8d293899626230438237af05e8e08fb0c7a86a66f8f6a2"
+    },
+    "letter_f": {
+      "text": "eff",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "d652d0bdb2b968dc3b72f55378216793f899142834a044d5a69fa7fec4c97d21"
+    },
+    "letter_g": {
+      "text": "jee",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "5e4e72c33a9f315cbd744576036c4bb362c96203ee2d76b8ecc21b6374caa5ee"
+    },
+    "letter_h": {
+      "text": "aitch",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "4a2b3591db07f5eac054bf2d14a6eb4b5e38e548428008b3cec1fefd95be1704"
+    },
+    "letter_i": {
+      "text": "eye",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6eb59c90373bed72f4785b3d1ebfa2a00ca4fd07eddadfb0b5ac225ce3ac3d2d"
+    },
+    "letter_j": {
+      "text": "jay",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6b5390732d6dbd2e236910a4dfa0f1131e9d1310fe8cd9a7524c8cfa843ccc34"
+    },
+    "letter_k": {
+      "text": "kay",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "2323f7946f5544a8fc9d4d31c9b40de82046f4f79525d3531e296a7edb81f0e1"
+    },
+    "letter_l": {
+      "text": "el",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "d3b6d55c1410583a4fb90dc90b75a56bd32a463e16af20683e4865272f07f1a9"
+    },
+    "letter_m": {
+      "text": "em",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "3910391afd3bd7cfb35a93a7d1d6e9d956ebec8b8426c642a2f1ba35eef8b6b5"
+    },
+    "letter_n": {
+      "text": "en",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "70bc8bd51a04982dbeee826fd555b02ec2a1ad03d62e2acbf7d014b19122b94d"
+    },
+    "letter_o": {
+      "text": "oh",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "f246543127c68074864de97c639e044a45fa6db86be779dc8b1b90b0685adcc3"
+    },
+    "letter_p": {
+      "text": "pee",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "2c0acb2c11ddc68c3c5ca0e0450b2e00e2056cdc7f23254980053f06bc004647"
+    },
+    "letter_q": {
+      "text": "cue",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "addea8dbc4458fa398a13d46d7ea4a408af8cc07c3b2160f94d4399cb6134c4d"
+    },
+    "letter_r": {
+      "text": "ar",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "59221ea240b5ca09fbd880fd74991940c60725532f0677b4ac48a3400f4035e5"
+    },
+    "letter_s": {
+      "text": "ess",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "624c725992006f99c0e87ac12815c16983c276c89341ec60275c9a83f5367e8f"
+    },
+    "letter_t": {
+      "text": "tee",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "43787868dd0ec448ebe7f33b025e5bb67f21aacd7fd017a846f198026d5e7953"
+    },
+    "letter_u": {
+      "text": "you",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "b90e87f3b2b0fa761edb2107818826db7714f6e807847884b2639f5d0df9a7ce"
+    },
+    "letter_v": {
+      "text": "vee",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "e06e3d6011691daf3311245b3f7f959ba487e90ed8bf0b7770606d113739f71e"
+    },
+    "letter_w": {
+      "text": "double you",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "edc3ea4b304cfa93d9f5a7af87b36912c31fca3ca3b4561ce266567a0862c28d"
+    },
+    "letter_x": {
+      "text": "ex",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "9cef71c6c21b24f5fb27237178f0c36699363d973221bcefe0e9f44726297ae5"
+    },
+    "letter_y": {
+      "text": "why",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "62c5182452ba2f5df6c5247b29a58405502ee13da0f1d1b3c7fb1464ec2e2ada"
+    },
+    "letter_z": {
+      "text": "zee",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "b4190586b4485d13379dea665cd246d8a99f1bd7590a94fdb20c0e406473ac70"
+    },
+    "word_alligator": {
+      "text": "alligator",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "baa7b7a5bdc75dacfd9c37df1ab48604371ea0047976758ff79a61fcebe0752f"
+    },
+    "word_ant": {
+      "text": "ant",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "e74a0b5d761984eb69dbbe1b569456ae46914268f542356d1242496312a9cb3b"
+    },
+    "word_apple": {
+      "text": "apple",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "d44ddbf4143688e65b854841fb36052b50a0963d42b2cec8439c1753aa92f089"
+    },
+    "word_ball": {
+      "text": "ball",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "ba9c6686088ffb6559da015e95a420ad9a8a7b68f039a109e4f6927b89f61ac8"
+    },
+    "word_banana": {
+      "text": "banana",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "45b495e92d4fcecf030aea4aa3b758e16a042ebdae0a7fd3ce860f25a3e634b0"
+    },
+    "word_bear": {
+      "text": "bear",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6883e251485f3b9415488a3189b49a7cafe784667c3e59d626b44e6a214695cb"
+    },
+    "word_cake": {
+      "text": "cake",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "97309b24b30a576e8cf91558e80a309a58ff62768acb46760fd01459b5378b85"
+    },
+    "word_car": {
+      "text": "car",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "42bfb48ba72af0235637364d27e94a92afce71e6c23e2c7521659aca30353a13"
+    },
+    "word_cat": {
+      "text": "cat",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "4c74c7c8319722628ef42253b4d474c27805ae92c933f04e8ad250c170aa24af"
+    },
+    "word_dog": {
+      "text": "dog",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "b9e7317f158b956e043b293341a65f8ddd2d2ea138bb1b1252fad85ec1cc55bf"
+    },
+    "word_drum": {
+      "text": "drum",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "77ad3ed9836137ec65978c17fdf1ae485e212b382e6df0ccf85771750a375c48"
+    },
+    "word_duck": {
+      "text": "duck",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "9ac662494b14cacc27ca5407f553dc88cfae7fc6e623066b524799c10c0cf405"
+    },
+    "word_egg": {
+      "text": "egg",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "cb7e432017db4316057e8e5013d9d5c42b0e5de864028fa07fd0514b956fea85"
+    },
+    "word_elephant": {
+      "text": "elephant",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "4f11c421251107b7ae4bfe017dbc8bc3dc543676a2eb26831248b1fb93930c12"
+    },
+    "word_elf": {
+      "text": "elf",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "11afba6bcf2f7b2cc8a25de3424d648fa33b91cf793b514983b661bc2d572ae2"
+    },
+    "word_fish": {
+      "text": "fish",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "0a1fd4853095622e9158961565d40818b5b108cd572b782812b68c5eb68dd08f"
+    },
+    "word_flower": {
+      "text": "flower",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "47d6daef53e4bb584823a530448b96327dbec70841005cf32a58d7f8e938f338"
+    },
+    "word_frog": {
+      "text": "frog",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "65a7ecf49b17ec79196e7185296ccaf8f7518177cf11bf3e0417aef4e7e8fe79"
+    },
+    "word_goat": {
+      "text": "goat",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "170141fda109b4aeebb160385f21e29820630ec2c8aa9be8150339627403bf4e"
+    },
+    "word_grapes": {
+      "text": "grapes",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "77294064655ea51272fcfc2d6f550a144c7a91e4f6f09cd7a78771fb8c068710"
+    },
+    "word_guitar": {
+      "text": "guitar",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "2096cfa9a77e012f03ade0e6556b6550ca8022c04ee998c03e9c8ab2fe9029dc"
+    },
+    "word_hat": {
+      "text": "hat",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "734a02a0e00c9cf853cbebca2e72f0e38d6fda49dc28e7f51b6d87d1544e3600"
+    },
+    "word_horse": {
+      "text": "horse",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "50531431d38da267f7d00e30ccf337902210f7c180e657c06fe8c3797cc59e7f"
+    },
+    "word_house": {
+      "text": "house",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6799d52194cf0a5e894ff76f469530a00bd03778b80b527c962a104b4412890d"
+    },
+    "word_igloo": {
+      "text": "igloo",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "166deea9677a4333fcf35163b05a87da8161379f9c509312b6512ce8ae568254"
+    },
+    "word_iguana": {
+      "text": "iguana",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "5f49c20a15427b52d8549b812e915670fb0336ae53a1e281fd2fb638aeafff73"
+    },
+    "word_insect": {
+      "text": "insect",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "d1aa7011ced1d55e50a2f8ad108c8723b6f823bab60274151b5550184b10539f"
+    },
+    "word_jam": {
+      "text": "jam",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "14ba93ec440a2cafde1db28f798a3b29d864338dd59695864ea7a3206d740c75"
+    },
+    "word_jellyfish": {
+      "text": "jellyfish",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "c0f3ac322a141e27b0343e6abbeffebf309719ae18022fa547a357d29fe46b72"
+    },
+    "word_juice": {
+      "text": "juice",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "aa22af1711dc2ae6482c8a45c4c736ce763c88fa0fbfb698a2160d2ae58124e6"
+    },
+    "word_kangaroo": {
+      "text": "kangaroo",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "b8c080d60da7583b67a5f7a4aab04943a084503f8602af4004ea3e35633df6a0"
+    },
+    "word_key": {
+      "text": "key",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6c3402b34a1515c805298c7bdec97d499176d53bab61a89aff836f79bf26b533"
+    },
+    "word_kite": {
+      "text": "kite",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "81bfd988dedcba29ccc2d6271ea83a5fdd750ba2619694996755b5cd04f90ebb"
+    },
+    "word_leaf": {
+      "text": "leaf",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "0ead8701dd962fdc10d33badcb9fc26062e17e00ca4c0ace27e63d28cb90bc74"
+    },
+    "word_lemon": {
+      "text": "lemon",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "7c1fc2aea5904ad299a0e1e1b797f22469cc8b235f82efc9065ec51a6f64daed"
+    },
+    "word_lion": {
+      "text": "lion",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "ed493fb9b73f1af81b02bf2980f1ac755c2431493679a792eadf887f64a7a97a"
+    },
+    "word_monkey": {
+      "text": "monkey",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "cfa37efdd10389e4f148ddedd7c7c09a3487db68201a8dfcfc3143bbb0f05c91"
+    },
+    "word_moon": {
+      "text": "moon",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "abb5e75ee1f1033663997e8016d67310bf2c260a0d945324d276701bca4aa7ab"
+    },
+    "word_mouse": {
+      "text": "mouse",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "81f790b11cfe7720bc23cfc86df6898f826a95f73c273f42dd7fd2ed62f20972"
+    },
+    "word_nest": {
+      "text": "nest",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "4d886e1c8b2059da56e8f33af75f4283c951f6238e022b904960c7621079844a"
+    },
+    "word_net": {
+      "text": "net",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "c004dc863bb519526fe470ba58e140c73f9a39e72980ae207295d509f7849f19"
+    },
+    "word_nose": {
+      "text": "nose",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "e7f9a123c2002a414c10326ddc140ada1a34f05b2c31f7be2ee96f26b460b165"
+    },
+    "word_octopus": {
+      "text": "octopus",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "b63df798a50156ca963798f98bb117879b3b8112f80227ce2d0266a277e09b5f"
+    },
+    "word_ostrich": {
+      "text": "ostrich",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "5592a4ffe95a9e46c0be4eec40c47ebd98ef1d1aa83d4b865f547545d846267d"
+    },
+    "word_otter": {
+      "text": "otter",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "0c502e6a2afb81553d9ab36116c00ebb8760b7e3d46f42213a251dbc931c02a5"
+    },
+    "word_pear": {
+      "text": "pear",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "9428fdfb21ce73a4930d578f9ea6385fcc00c22bf2836f096a40299e45dbd92f"
+    },
+    "word_penguin": {
+      "text": "penguin",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "e6a1069a301c0df636e1c950f2fe6b767d98b1baa40ce22fad1e2f780387f3cf"
+    },
+    "word_pig": {
+      "text": "pig",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "fd5cd11888715aa2dfcb495324dee93411d34c4f8b7fd529e81e39521a18c9c8"
+    },
+    "word_quail": {
+      "text": "quail",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "edf80465600f799613ab5554b14b32fe9c5a98cc7ed96039ab269684b3a891b7"
+    },
+    "word_queen": {
+      "text": "queen",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6aa2a770e5bb8ecb4bbcf5bb08a7bc16e1258014264ea135ae468bd8cecbe98e"
+    },
+    "word_quilt": {
+      "text": "quilt",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "558c9e63d8f1a32ff2bdc22816a0d52b6b619ba72a0268dd1fd80946d4f0bca3"
+    },
+    "word_rabbit": {
+      "text": "rabbit",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "c71464d781a9e34b821606dbd5b3a3a1ac64987627088988009651a728fee427"
+    },
+    "word_rainbow": {
+      "text": "rainbow",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "604455ca431acf9115aeaf262888dc4227550030b922aa64f6762f66dea41d90"
+    },
+    "word_robot": {
+      "text": "robot",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "c0f0101afa4ae3b24584d40a8d401c35c5bd7b1f0108264f8f30408bb3702b4b"
+    },
+    "word_snake": {
+      "text": "snake",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "316cf2823858e1806f1433c21ff882312ee8816c5abffb06e2370b5d2859b164"
+    },
+    "word_sock": {
+      "text": "sock",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "0a3c0b7094b7e065f3b20dfd9078ecf26db2e14603f0a679762fd84682bdc015"
+    },
+    "word_sun": {
+      "text": "sun",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "d409369bb8068e65231d69ab6c7144b67ff7ecbe233b3f0330a9ce5199284f9f"
+    },
+    "word_tiger": {
+      "text": "tiger",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "12476c7befc80363f216dae49805e45e919d1090d136800c659ce33042f8aab3"
+    },
+    "word_train": {
+      "text": "train",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "cb583d08fade19935c2be7f04dcf46465d0504d475e924f13fb2205ab56cf679"
+    },
+    "word_tree": {
+      "text": "tree",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "1d4e6a09242a79bc0b3963d99c7d71d8298569b34bb2a46e68d289b85503c588"
+    },
+    "word_ukulele": {
+      "text": "ukulele",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "8e9decaef4fd689a5880c734dff32c037315f98e0d6913a22a9fe37fb58db875"
+    },
+    "word_umbrella": {
+      "text": "umbrella",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "89f322659c8aaef3cb749fc64d78116509cf8092e5dedbd812628a1e68fd98e6"
+    },
+    "word_unicorn": {
+      "text": "unicorn",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "073d7c5b4610b47e6881cebdf659b423ff5d231d29761594b1bc0594c445b693"
+    },
+    "word_van": {
+      "text": "van",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "1a9ba312ba6b31f398cde9de5851c8eabd5158475e1e1bfa11f5caa3cd7394ff"
+    },
+    "word_violin": {
+      "text": "violin",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "515776ef83ec0620b404efc35813c4ed28ade658852204edda43c2c7196839c5"
+    },
+    "word_volcano": {
+      "text": "volcano",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "68aa7f13fc0a4fee55ff5fe8cb3d86b55d26aa724474e679249292fe15eeb50f"
+    },
+    "word_watermelon": {
+      "text": "watermelon",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "4e7e410a85157dee0076a87efa5615a26989a7e51e1c8cbb99ec2b2c4611a473"
+    },
+    "word_whale": {
+      "text": "whale",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "3a81baff002e71db760e2afa6c95947063c04cfa1a2ccff3ccf130c07478bf45"
+    },
+    "word_worm": {
+      "text": "worm",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "949d3fcd5e2e280cd5d31c27c940ec0c28b90f7484d76eab927de9177dce3af5"
+    },
+    "word_yak": {
+      "text": "yak",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6e146ffe5d4854d04e3e6d33ff35f10453567f90d50847bdd2ed92e67812da2b"
+    },
+    "word_yogurt": {
+      "text": "yogurt",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "8ac21b5396e0c078accfa9d72132953a5c811b252c3e0f15fedbdfcb7ce377c6"
+    },
+    "word_yoyo": {
+      "text": "yo-yo",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "6ff42b0267f7cb28b4c89805caa8d21464ce6df30fadaf338dd02dae31b360c3"
+    },
+    "word_zebra": {
+      "text": "zebra",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "226927e9ed2d0188a3bdfbeafbbab52a7fe37e806d6575b9feffefb4c116a971"
+    },
+    "word_zipper": {
+      "text": "zipper",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "7bdff67e04fd09122b874ff5eb0aed3027f6a675dd1810be202730fd9f4c4b73"
+    },
+    "word_zoo": {
+      "text": "zoo",
+      "source": "piper:en_US-ljspeech-high",
+      "fingerprint": "fd53c59efe9bccc7c416a4915ed9e6b8f69012895b113e1943947c1313e8b978"
+    }
+  }
+}

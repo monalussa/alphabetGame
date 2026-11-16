@@ -1,0 +1,446 @@
+{
+  "$schema": "../schemas/concepts.schema.json",
+  "concepts": {
+    "airplane": {
+      "emoji": "✈️"
+    },
+    "alligator": {
+      "emoji": "🐊"
+    },
+    "ant": {
+      "emoji": "🐜"
+    },
+    "apple": {
+      "emoji": "🍎"
+    },
+    "ball": {
+      "emoji": "⚽"
+    },
+    "balloon": {
+      "emoji": "🎈"
+    },
+    "banana": {
+      "emoji": "🍌"
+    },
+    "bear": {
+      "emoji": "🐻"
+    },
+    "bee": {
+      "emoji": "🐝"
+    },
+    "bicycle": {
+      "emoji": "🚲"
+    },
+    "boat": {
+      "emoji": "⛵"
+    },
+    "bowling_pin": {
+      "emoji": "🎳"
+    },
+    "butterfly": {
+      "emoji": "🦋"
+    },
+    "cake": {
+      "emoji": "🎂"
+    },
+    "car": {
+      "emoji": "🚗"
+    },
+    "carrot": {
+      "emoji": "🥕"
+    },
+    "cat": {
+      "emoji": "🐱"
+    },
+    "chocolate": {
+      "emoji": "🍫"
+    },
+    "circus": {
+      "emoji": "🎪"
+    },
+    "cloud": {
+      "emoji": "☁️"
+    },
+    "cow": {
+      "emoji": "🐄"
+    },
+    "daisy": {
+      "emoji": "🌼"
+    },
+    "dinosaur": {
+      "emoji": "🦕"
+    },
+    "dog": {
+      "emoji": "🐶"
+    },
+    "dolphin": {
+      "emoji": "🐬"
+    },
+    "dragon": {
+      "emoji": "🐉"
+    },
+    "drum": {
+      "emoji": "🥁"
+    },
+    "duck": {
+      "emoji": "🦆"
+    },
+    "ear": {
+      "emoji": "👂"
+    },
+    "egg": {
+      "emoji": "🥚"
+    },
+    "elephant": {
+      "emoji": "🐘"
+    },
+    "elf": {
+      "emoji": "🧝"
+    },
+    "eye": {
+      "emoji": "👁️"
+    },
+    "factory": {
+      "emoji": "🏭"
+    },
+    "fish": {
+      "emoji": "🐟"
+    },
+    "flamingo": {
+      "emoji": "🦩"
+    },
+    "flower": {
+      "emoji": "🌸"
+    },
+    "flute": {
+      "emoji": "🪈"
+    },
+    "four": {
+      "emoji": "4️⃣"
+    },
+    "fox": {
+      "emoji": "🦊"
+    },
+    "frog": {
+      "emoji": "🐸"
+    },
+    "ginger": {
+      "emoji": "🫚"
+    },
+    "giraffe": {
+      "emoji": "🦒"
+    },
+    "glass": {
+      "emoji": "🥛"
+    },
+    "glasses": {
+      "emoji": "👓"
+    },
+    "goat": {
+      "emoji": "🐐"
+    },
+    "gorilla": {
+      "emoji": "🦍"
+    },
+    "grapes": {
+      "emoji": "🍇"
+    },
+    "guitar": {
+      "emoji": "🎸"
+    },
+    "hamster": {
+      "emoji": "🐹"
+    },
+    "hat": {
+      "emoji": "🎩"
+    },
+    "hedgehog": {
+      "emoji": "🦔"
+    },
+    "helicopter": {
+      "emoji": "🚁"
+    },
+    "horse": {
+      "emoji": "🐴"
+    },
+    "house": {
+      "emoji": "🏠"
+    },
+    "igloo": {
+      "emoji": "🧊"
+    },
+    "iguana": {
+      "emoji": "🦎"
+    },
+    "insect": {
+      "emoji": "🐞"
+    },
+    "island": {
+      "emoji": "🏝️"
+    },
+    "jaguar": {
+      "emoji": "🐆"
+    },
+    "jam": {
+      "emoji": "🫙"
+    },
+    "jellyfish": {
+      "emoji": "🪼"
+    },
+    "juice": {
+      "emoji": "🧃"
+    },
+    "jungle": {
+      "emoji": "🌴"
+    },
+    "kangaroo": {
+      "emoji": "🦘"
+    },
+    "key": {
+      "emoji": "🔑"
+    },
+    "kite": {
+      "emoji": "🪁"
+    },
+    "kiwi": {
+      "emoji": "🥝"
+    },
+    "koala": {
+      "emoji": "🐨"
+    },
+    "ladder": {
+      "emoji": "🪜"
+    },
+    "leaf": {
+      "emoji": "🍃"
+    },
+    "leg": {
+      "emoji": "🦵"
+    },
+    "lemon": {
+      "emoji": "🍋"
+    },
+    "lily_of_the_valley": {
+      "emoji": "🌼"
+    },
+    "lion": {
+      "emoji": "🦁"
+    },
+    "monkey": {
+      "emoji": "🐵"
+    },
+    "moon": {
+      "emoji": "🌙"
+    },
+    "motorcycle": {
+      "emoji": "🏍️"
+    },
+    "mouse": {
+      "emoji": "🐭"
+    },
+    "mouth": {
+      "emoji": "👄"
+    },
+    "mushroom": {
+      "emoji": "🍄"
+    },
+    "nest": {
+      "emoji": "🪺"
+    },
+    "net": {
+      "emoji": "🥅"
+    },
+    "nose": {
+      "emoji": "👃"
+    },
+    "octopus": {
+      "emoji": "🐙"
+    },
+    "olive": {
+      "emoji": "🫒"
+    },
+    "orange": {
+      "emoji": "🍊"
+    },
+    "ostrich": {
+      "emoji": "🐦"
+    },
+    "otter": {
+      "emoji": "🦦"
+    },
+    "owl": {
+      "emoji": "🦉"
+    },
+    "pear": {
+      "emoji": "🍐"
+    },
+    "penguin": {
+      "emoji": "🐧"
+    },
+    "pig": {
+      "emoji": "🐷"
+    },
+    "pineapple": {
+      "emoji": "🍍"
+    },
+    "pocket": {
+      "emoji": "👖"
+    },
+    "pupil": {
+      "emoji": "🎒"
+    },
+    "puppy": {
+      "emoji": "🐶"
+    },
+    "quail": {
+      "emoji": "🐦"
+    },
+    "queen": {
+      "emoji": "👸"
+    },
+    "quilt": {
+      "emoji": "🛏️"
+    },
+    "rabbit": {
+      "emoji": "🐰"
+    },
+    "rainbow": {
+      "emoji": "🌈"
+    },
+    "robot": {
+      "emoji": "🤖"
+    },
+    "rocket": {
+      "emoji": "🚀"
+    },
+    "rope": {
+      "emoji": "🪢"
+    },
+    "rose": {
+      "emoji": "🌹"
+    },
+    "seashell": {
+      "emoji": "🐚"
+    },
+    "sheep": {
+      "emoji": "🐑"
+    },
+    "shoe": {
+      "emoji": "👟"
+    },
+    "skirt": {
+      "emoji": "👗"
+    },
+    "snail": {
+      "emoji": "🐌"
+    },
+    "snake": {
+      "emoji": "🐍"
+    },
+    "sock": {
+      "emoji": "🧦"
+    },
+    "spoon": {
+      "emoji": "🥄"
+    },
+    "squirrel": {
+      "emoji": "🐿️"
+    },
+    "star": {
+      "emoji": "⭐"
+    },
+    "strawberry": {
+      "emoji": "🍓"
+    },
+    "sun": {
+      "emoji": "☀️"
+    },
+    "swing": {
+      "emoji": "🎠"
+    },
+    "tail": {
+      "emoji": "🐈"
+    },
+    "tiger": {
+      "emoji": "🐯"
+    },
+    "tomato": {
+      "emoji": "🍅"
+    },
+    "toy": {
+      "emoji": "🧸"
+    },
+    "tractor": {
+      "emoji": "🚜"
+    },
+    "train": {
+      "emoji": "🚂"
+    },
+    "tree": {
+      "emoji": "🌳"
+    },
+    "truck": {
+      "emoji": "🚚"
+    },
+    "turtle": {
+      "emoji": "🐢"
+    },
+    "ukulele": {
+      "emoji": "🪕"
+    },
+    "umbrella": {
+      "emoji": "☂️"
+    },
+    "unicorn": {
+      "emoji": "🦄"
+    },
+    "uniform": {
+      "emoji": "👔"
+    },
+    "van": {
+      "emoji": "🚐"
+    },
+    "violin": {
+      "emoji": "🎻"
+    },
+    "volcano": {
+      "emoji": "🌋"
+    },
+    "watermelon": {
+      "emoji": "🍉"
+    },
+    "whale": {
+      "emoji": "🐳"
+    },
+    "wolf": {
+      "emoji": "🐺"
+    },
+    "worm": {
+      "emoji": "🪱"
+    },
+    "yak": {
+      "emoji": "🐂"
+    },
+    "yeti": {
+      "emoji": "❄️"
+    },
+    "yogurt": {
+      "emoji": "🥣"
+    },
+    "yoyo": {
+      "emoji": "🪀"
+    },
+    "zebra": {
+      "emoji": "🦓"
+    },
+    "zero": {
+      "emoji": "0️⃣"
+    },
+    "zipper": {
+      "emoji": "🤐"
+    },
+    "zoo": {
+      "emoji": "🎪"
+    }
+  }
+}

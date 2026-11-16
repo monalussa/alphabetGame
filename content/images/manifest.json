@@ -1,0 +1,4 @@
+{
+  "$schema": "../schemas/image-manifest.schema.json",
+  "images": []
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "defs.schema.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "id": {
+      "description": "ASCII identifier used to build file names. Never contains path characters.",
+      "type": "string",
+      "pattern": "^[a-z0-9_]{1,40}$"
+    },
+    "shortText": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "emoji": { "type": "string", "minLength": 1, "maxLength": 16 }
+  }
+}

@@ -21,7 +21,18 @@ const UNSAFE_DOM_SINKS = [
 ];
 
 export default ts.config(
-  { ignores: ['dist/', 'coverage/', 'playwright-report/', 'test-results/', 'node_modules/'] },
+  {
+    ignores: [
+      'dist/',
+      'coverage/',
+      'playwright-report/',
+      'test-results/',
+      'node_modules/',
+      'public/',
+      'tools/.venv/',
+      'tools/.cache/',
+    ],
+  },
   js.configs.recommended,
   ...ts.configs.strict,
   ...svelte.configs.recommended,
@@ -84,5 +95,9 @@ export default ts.config(
     files: ['tests/**/*.ts', 'config/**/*.ts', '*.config.{js,ts}'],
     languageOptions: { globals: { ...globals.node } },
     rules: { 'no-restricted-syntax': 'off' },
+  },
+  {
+    files: ['tools/**/static/worklet.js'],
+    languageOptions: { globals: { ...globals.audioWorklet } },
   },
 );

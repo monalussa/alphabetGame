@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/ui.schema.json",
+  "strings": {
+    "app.title": "Igra slova",
+    "start.play": "Igraj",
+    "game.smash.title": "Tipkaj slova",
+    "language.label": "Jezik",
+    "parent.hold": "Roditelji: držite pritisnuto"
+  }
+}

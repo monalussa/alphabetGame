@@ -1,0 +1,615 @@
+{
+  "$schema": "../../schemas/audio-manifest.schema.json",
+  "clips": {
+    "char_a": {
+      "text": "Bonjour, je suis Madame a !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "1aac5ad74fa1034b66cee795de0887f54b39e8504ad48dd32b7c22087bc12b43"
+    },
+    "char_b": {
+      "text": "Bonjour, je suis Monsieur bé !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "7e7f436bfbe6490180e10478ed9e56057a74019695ad805e860ae3c93b5fa34f"
+    },
+    "char_c": {
+      "text": "Bonjour, je suis Monsieur cé !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "f5c9602c4f54a8ab3d615001079747480aa13a0273668ab0c8cae891644b1bf7"
+    },
+    "char_d": {
+      "text": "Bonjour, je suis Monsieur dé !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "b9f19082c870eccd6b9735cef03211b8adcd1c87453fdccc2c27fb9f02bdba03"
+    },
+    "char_e": {
+      "text": "Bonjour, je suis Madame e !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "8da11ba82eba4fdf2cb31672caf2abc6cf6efcb2e5a2a15ed42f9d9e6c7d3b22"
+    },
+    "char_f": {
+      "text": "Bonjour, je suis Monsieur effe !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "d8c5df5ad50e5036e114a38319058dd5ce5d3cd41e0683fd48bfc1eb89ceb696"
+    },
+    "char_g": {
+      "text": "Bonjour, je suis Monsieur gé !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "31352c61c5b56f3bf2cb6f4e91e9512a0adb2fac377f02ea88df43c187026dc3"
+    },
+    "char_h": {
+      "text": "Bonjour, je suis Monsieur ache !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "eb64bd2f44dbccd2f0fb4a783a5bb685bc60522a0f66b144c967a84d5026e740"
+    },
+    "char_i": {
+      "text": "Bonjour, je suis Madame i !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "6d97097de6dbbc487a67cd101e58f9696df3c37730c9a4bfab3e083df5f370d8"
+    },
+    "char_j": {
+      "text": "Bonjour, je suis Monsieur ji !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "dbba0daa5c5af77e539d5da9c68266b6cfba522a74c9268468f28fe56db3fc85"
+    },
+    "char_k": {
+      "text": "Bonjour, je suis Monsieur ka !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "0f1352e6c990583c4b5521d9cfb369b60af3a6be2966809ffd09dcd6ca2c4dab"
+    },
+    "char_l": {
+      "text": "Bonjour, je suis Monsieur elle !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "9115edf6e75a5c97686497b2d85079b3ef545a53efd1d84329e57e7a0bf6a394"
+    },
+    "char_m": {
+      "text": "Bonjour, je suis Monsieur emme !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "38f3964f6224dae11015c082590ae5f95c3584650b6573a60d8859abb54d6e7e"
+    },
+    "char_n": {
+      "text": "Bonjour, je suis Monsieur enne !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "98274e879f5b746dbc54e4cc9164e14d4cd2bae3dc0157cea37ff0a4348ec67a"
+    },
+    "char_o": {
+      "text": "Bonjour, je suis Madame o !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "5b47a39904baeeaf18d063dfd58969a3b48fa33001cf1b7842c79943c74b6442"
+    },
+    "char_p": {
+      "text": "Bonjour, je suis Monsieur pé !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "472ad10ab1bed46fa3ffa4e9cc381aaef0d642720f429b8dc9fdee1767e88c5f"
+    },
+    "char_q": {
+      "text": "Bonjour, je suis Monsieur qu !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "95030236de731532d959d0ba5fe0ec3ddb45b46451b0404e6a67560d2d6af9e8"
+    },
+    "char_r": {
+      "text": "Bonjour, je suis Monsieur erre !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "7506daf4bc518cc3c93fd1d177453a473e20b26946fa0a669ff1ad59c588273f"
+    },
+    "char_s": {
+      "text": "Bonjour, je suis Monsieur esse !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "38158f960e45f193fdf0323cff1019c3fecc6d7a8799bcda7e9c38265ae186d8"
+    },
+    "char_t": {
+      "text": "Bonjour, je suis Monsieur té !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "2cde0d52fadef9f6b5ade666f4fa5d777a7452fe2044716142f80fce86094632"
+    },
+    "char_u": {
+      "text": "Bonjour, je suis Madame u !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "ad65f676a0dac3a739a2da6dec5725d6f8c373f5cd863ae6e050365d88b9e19d"
+    },
+    "char_v": {
+      "text": "Bonjour, je suis Monsieur vé !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "a734d1ad5f03350d95b598fcbdefe39cd2f9e09b25a0709550f643ad743dbed3"
+    },
+    "char_y": {
+      "text": "Bonjour, je suis Monsieur i grec !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "49b61d6fefb430ac34eae733d9a90c4419f16b51aafb7b132056b5d08a391b81"
+    },
+    "char_z": {
+      "text": "Bonjour, je suis Monsieur zède !",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "2fc297dd3c808154a4b9a09174b9110cae0d26d478bbe6cbcf9eadb089bb676b"
+    },
+    "letter_a": {
+      "text": "a",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "1cf3bc538b769bd91d13c26fe7b073e453dddb06c11a4c09d74d554a117bb9da"
+    },
+    "letter_b": {
+      "text": "bé",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "4c643158939ef3ae28d287e1168e6960b9547782aa0841e4cbdad080744dc54d"
+    },
+    "letter_c": {
+      "text": "cé",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "a2fd0576aba5d26cbee659b1507041b0b204b17c612022b3886a923341431f98"
+    },
+    "letter_d": {
+      "text": "dé",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "e7dc1ad1574c07344dd8c8973774805aa592c700da1ce42fc1fd8297cf49250b"
+    },
+    "letter_e": {
+      "text": "e",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "153d97d674b3f0dbcee2ccd03e76c52288cb3703358c5457c557068b75f0d615"
+    },
+    "letter_f": {
+      "text": "effe",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "b708acc55bb9004bbfc4370074d04414bdb81e975886ed296c9446110c4131ec"
+    },
+    "letter_g": {
+      "text": "gé",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "4b030218677b519170afa059381400880bbe4b02ecb92faebfa1295f10beffe1"
+    },
+    "letter_h": {
+      "text": "ache",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "6d1d652af92eb7e376c1aba56b7196b30014bb46fce3a92fafe4c3887bdef675"
+    },
+    "letter_i": {
+      "text": "i",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "8ba8800d1d2c697893574320f4a393a5bdd0ecfa0598370ab79b6811a0e77b12"
+    },
+    "letter_j": {
+      "text": "ji",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "bd23cfb7f09709024f46be6b481d0d52a091d75a9efdf060df3e50d36d0ef596"
+    },
+    "letter_k": {
+      "text": "ka",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "527eca13c306529683ba2b4ce41fdf0a11ca1c5a6c2456f14ea9ae3be667d81b"
+    },
+    "letter_l": {
+      "text": "elle",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "8f187f4347d1e1add687ae8cbc16935c576717d965fbe04b073aac2cfe2c76ef"
+    },
+    "letter_m": {
+      "text": "emme",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "e7dcac0aee358f0bb4f590e4452280d17ef0665114b95ec535072ee475b3f13b"
+    },
+    "letter_n": {
+      "text": "enne",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "07be29d00189ee017180c714afb18024aed5be141b7c8a2122dae9a7f9d06fd0"
+    },
+    "letter_o": {
+      "text": "o",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "4468826999d84c66411650bb670f3849f4944171932449d88d87224ce3d8bd3b"
+    },
+    "letter_p": {
+      "text": "pé",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "5d4a45cfa4e2e0d572adf95f59fb59e53aee82c2a171d274970bd4c697766b71"
+    },
+    "letter_q": {
+      "text": "qu",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "66bc93707d976cbc7e83399597974b48693dd3727e849ef392189b21f6678d7b"
+    },
+    "letter_r": {
+      "text": "erre",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "bd7e0396105ad0682bd1d4fd1c1051d3f7f5dcb9f5d513eea842722617240b9c"
+    },
+    "letter_s": {
+      "text": "esse",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "067a5fe2faf4374a95d9189f51902e5b51e727fa6e5e4246d76aeb72f4bee3a6"
+    },
+    "letter_t": {
+      "text": "té",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "2371306452dffee9b99cb6a9e87afe7b810c1a986d13f1b000f93ab9aeb689dd"
+    },
+    "letter_u": {
+      "text": "u",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "41e88da6c291b3523aa27da37efdc7cfd2c8bc9442c5eb7fd2b4f274769316ee"
+    },
+    "letter_v": {
+      "text": "vé",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "7430deba4d8986500e47c90fa7d5554969f1324568e0ea5eadfdf427e4737948"
+    },
+    "letter_w": {
+      "text": "double vé",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "11a1aa970347c7dc66069385616c037cfdc1dc709471d01c778acd709185b235"
+    },
+    "letter_x": {
+      "text": "ixe",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "1d3306d02cdcc4d7897ff5f1ccc9a9c22f83b5c2537757ebf34149928527a732"
+    },
+    "letter_y": {
+      "text": "i grec",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "dca748616d80b6b2effe3f7d6b0bb03c4dff1db8458e13c2f20236400c7af92f"
+    },
+    "letter_z": {
+      "text": "zède",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "a11d4d6096bcc4f61e8d7a0ea4340e9ab9b89aab063f6ae503442a84e15774a6"
+    },
+    "word_abeille": {
+      "text": "abeille",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "78cecc51316adaa8defa6eee68839601c14db12eeea931b99037058142c25345"
+    },
+    "word_ananas": {
+      "text": "ananas",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "805b105445900013f1fa7107c37674301b1192b595a9daed09fd5e2a1a80d7f0"
+    },
+    "word_avion": {
+      "text": "avion",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "d20bd0b27f8eeda9548645fdfaa0f308ae33a1dc278a172c26497f739339251e"
+    },
+    "word_ballon": {
+      "text": "ballon",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "fe233fb00cbec5299712b02545465553e0bf670d1b5fdce7b4925a9a6798282f"
+    },
+    "word_banane": {
+      "text": "banane",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "0fb601636c14174053f007fae9e6b2cfdf9ba5d8c0f2b1e061895943fdc27f70"
+    },
+    "word_bateau": {
+      "text": "bateau",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "3e704190b8cb9da34321b78a9555979410cbc2c753b4a23f9ecdcd916d43fa47"
+    },
+    "word_camion": {
+      "text": "camion",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "0ba271d57cf0226ea7d6c041976ababc7c8d71599c77446d239da518e41159b5"
+    },
+    "word_canard": {
+      "text": "canard",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "3d7e5e28962fe314b8406601f24bd58b11b3d149c6fbb67ae9a2da847c673055"
+    },
+    "word_carotte": {
+      "text": "carotte",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "aa278300fa82907b164437e738f01dcca79640bc00b02a5ffc9c7c128a8e3c2b"
+    },
+    "word_dauphin": {
+      "text": "dauphin",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "810d007c2182a915f2051b321fbf5bbf49ac3a1bf0d07158f4c60fa357b9917a"
+    },
+    "word_dinosaure": {
+      "text": "dinosaure",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "fd6af9d490ec0ace8ad828d6c95fb17204e0a7d3de056e16ab803af49a98c561"
+    },
+    "word_dragon": {
+      "text": "dragon",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "327d008922c1a762271f582164e0aa6f1797126934098fc5578fc156423fa341"
+    },
+    "word_elephant": {
+      "text": "éléphant",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "5cedb1d9a74ac5b75403154bca4a3ffe90f358e7c7dcccd41578cc132641bf89"
+    },
+    "word_escargot": {
+      "text": "escargot",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "1f07ba4921b6f21fd61c8be440b6c8ad22e2c2f649276b4ac02c7a6d70fbc9e3"
+    },
+    "word_etoile": {
+      "text": "étoile",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "23ad3735fbe1c45ecfd14e69546d15a6bd2b74dfcc0c1c1d681e8956de428524"
+    },
+    "word_fleur": {
+      "text": "fleur",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "ea6fc79bac88d86519cdeba3c047987f9c0706528d8b3758a4e07467e17970a1"
+    },
+    "word_fraise": {
+      "text": "fraise",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "8e5528525f7b8bc759e7050c9dfeece82e1c5c6b214efe06a6866dd8227b519a"
+    },
+    "word_fusee": {
+      "text": "fusée",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "440237404742d1339f2ba5a7e2fbeaad8e224f3dc2264d23fbfc6f847f6483c9"
+    },
+    "word_gateau": {
+      "text": "gâteau",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "ec2e574afda5520ae5424a46e6767262d9f65ed56f0a748e59f3f1050e949a78"
+    },
+    "word_gorille": {
+      "text": "gorille",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "271150d2ff1782e2cff92bea1bc7d134a973400982b4ba22c70f448184ff4138"
+    },
+    "word_guitare": {
+      "text": "guitare",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "3b09b0067725153806f13f567e22c6c373bc389039ec38c3c6e85aded4ab2c47"
+    },
+    "word_helicoptere": {
+      "text": "hélicoptère",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "9a3272501ac4548d1455344860959b0d9a3de79404fa4147b9ccb0547f7b220a"
+    },
+    "word_herisson": {
+      "text": "hérisson",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "1c3e495b04199986946facefb97cfa1af9e150b029b1a2fa195e70abfdb5949b"
+    },
+    "word_hibou": {
+      "text": "hibou",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "08b641bc4c00ec851d51c7c6af4d80f8ddb020e24d0d2c8de782a8ac47b76d5b"
+    },
+    "word_igloo": {
+      "text": "igloo",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "5468d9078d565bcd89b6a64bf587dc47fdebb6e402c67179e9e491bcf869d41f"
+    },
+    "word_iguane": {
+      "text": "iguane",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "6ab3f7ca8f2fb3a1127ce882e80d293d7a0f14df88746569be424897be04a7d4"
+    },
+    "word_ile": {
+      "text": "île",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "c9c815d687af5918edf54e69a9626fbd4db4a59f66f5c94bc6a1adede0916a8b"
+    },
+    "word_jaguar": {
+      "text": "jaguar",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "b94da22690400f4c71791bc0612860c22600a63a38568f7025d1e43f5908f4ac"
+    },
+    "word_jupe": {
+      "text": "jupe",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "967384b0a2aa93001341f98d85423f1acd95d98fbfbd532fc80389e2d472a464"
+    },
+    "word_jus": {
+      "text": "jus",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "3a6e69648a98114e86630a719b221f9c054ad4022ff5ef38ed268c6d8eb52bca"
+    },
+    "word_kangourou": {
+      "text": "kangourou",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "141ea20e6e8756aca3e654a26265b19d97e6e04a700cb004495406e22cd84a63"
+    },
+    "word_kiwi": {
+      "text": "kiwi",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "fa79ceaca3ba8e66c5c70fa14abeb8aefb98ece6c9c354144db21097ec51a06c"
+    },
+    "word_koala": {
+      "text": "koala",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "cf84ab38e75a2775ba45a47e61ea1fbb339573e76a557bd6bd7e9e981e1614a0"
+    },
+    "word_lapin": {
+      "text": "lapin",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "8d6c79194769307333a8babae33fd94d7805f34df2459197b84e2f776724e692"
+    },
+    "word_lion": {
+      "text": "lion",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "5ec66ab3ce0ee731460195db144f09f31b980abcb649d80e1417fc61c7c8fcd0"
+    },
+    "word_lune": {
+      "text": "lune",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "f5173a60c86150a566a239d9b7c0be84fea96f3a644e75f9b597e14f58d8b86b"
+    },
+    "word_maison": {
+      "text": "maison",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "5f7a613623c1595ed53edc3ada3fc5718e484996035c906ec5cd6ca1e00419f9"
+    },
+    "word_moto": {
+      "text": "moto",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "a71f010058ed013df550e91770bc1af2987669ad7a88ed4d641a853754e736a9"
+    },
+    "word_mouton": {
+      "text": "mouton",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "84cd4c0f05ae3ba9f295804771dff40a7074f5008a88c4749643c388bd524921"
+    },
+    "word_nez": {
+      "text": "nez",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "3214bae1534f987c269641d08c0a058eb1ccbb149ec8d4fbc7d7fcdc29be00da"
+    },
+    "word_nid": {
+      "text": "nid",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "ac3c24244a25bd7ad10e48e9fc3e3c185b188d13008b635f30bd70044018cb1d"
+    },
+    "word_nuage": {
+      "text": "nuage",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "75de31441cbc423aa2419f47933d10dd424598d65fdb103b3e003549e547c469"
+    },
+    "word_olive": {
+      "text": "olive",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "76b042f18b5da604512b7dfea370429fbb0fc07d4074305c703bc4ac451777f3"
+    },
+    "word_orange": {
+      "text": "orange",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "663b9db2b33791f15af7f91cd5616a5ac44927d93a639f5a265e6fa289221de5"
+    },
+    "word_ours": {
+      "text": "ours",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "b7abd029c755a39537390adc35871aed5d9cf03069fbe0d993de41bae5fdb057"
+    },
+    "word_papillon": {
+      "text": "papillon",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "76fbf2042f30bbd7f8472a5257c5acd0d3f3e455862658e283bc9103f99ffbc6"
+    },
+    "word_poisson": {
+      "text": "poisson",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "7cf7e39a895e06efd9ba60157d776be2021c71c0835f60a230bc55667e0434f7"
+    },
+    "word_pomme": {
+      "text": "pomme",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "bef9c5539b3af35734184cc13459f4747aa0c0f2f235e30f0bb939086b73f0c5"
+    },
+    "word_quatre": {
+      "text": "quatre",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "cc1db1886320159f266d746ba08fd7804c1a49a633706793dab8c3691cba7e79"
+    },
+    "word_queue": {
+      "text": "queue",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "3e5ea374946fbeebdb0b9b586682b23b934a4657a3f529e3461dafbf3d6c3af4"
+    },
+    "word_quille": {
+      "text": "quille",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "dc036bb91c20ffb393b8020ae266e8a4a9a6bc08cdcd4ed985d83fb109f36cbf"
+    },
+    "word_raisin": {
+      "text": "raisin",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "07ae92a1b7051c9f576180ee2c31e22f7c907bdc4b443933fee5c10a9f3725b0"
+    },
+    "word_renard": {
+      "text": "renard",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "fdf652ad60e67165b011e441c28f54cfcc216b0236f56c840f01b55e5c538d06"
+    },
+    "word_robot": {
+      "text": "robot",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "faab760fd93feddbcc5e69de7ea3c2b9ed75dc155247d20eeee36d3c64fc3926"
+    },
+    "word_serpent": {
+      "text": "serpent",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "431113c8ec820151664a303e567083b0f6b1a876ce22241ec9e6386df0e052b0"
+    },
+    "word_soleil": {
+      "text": "soleil",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "c9b448c41ca7b1261e8aa1fe1a14cd1675b2e0858639742194a5821d4e0cc3b2"
+    },
+    "word_souris": {
+      "text": "souris",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "b8426952ff4913c0c880817bf1b3a2b8d972b6276a8ba440cff625e2688ad2c0"
+    },
+    "word_tomate": {
+      "text": "tomate",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "83f14f2da3fe2ecec95c834b0e47f49d830dc3eab7377e468b8b333efb443bd8"
+    },
+    "word_tortue": {
+      "text": "tortue",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "80cf29d48d988b9ec559f7f1ff57377a07c3bbf4891f34ce7bb65c5dc6410486"
+    },
+    "word_train": {
+      "text": "train",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "b7c4ecb93d37b42e79c35f142e95d2b880e993730cb3a82d5edba1bb383ed23b"
+    },
+    "word_ukulele": {
+      "text": "ukulélé",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "878c839cfe7ce4f39ac7ba92d7a84db927ddb2b83a4ca17a5c162239905c1b59"
+    },
+    "word_uniforme": {
+      "text": "uniforme",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "c6d63cc04f3feeff3fa83d45b062de6790f153baccd2f2e184fc1afeca14d391"
+    },
+    "word_usine": {
+      "text": "usine",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "c621e3770897369408c1da0cb9309f30197b0ad10c3ccac118613095c3399d25"
+    },
+    "word_vache": {
+      "text": "vache",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "d59e8469c3318f85312250b815cd8908b26f54ff5dabd1966fb32e54170ba36b"
+    },
+    "word_velo": {
+      "text": "vélo",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "ea85922a049754b512271ae0d104f690a24f54cfedd2a888abf6ffc548432e7c"
+    },
+    "word_voiture": {
+      "text": "voiture",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "562fa93c09675ef066e2d541068c0000d0329cdd7171c59e18c5bd928300bd39"
+    },
+    "word_yaourt": {
+      "text": "yaourt",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "fa62f0cd83becabe7f6d498f7c7020533b0329cb15e18fbe6859494fa9a864a4"
+    },
+    "word_yeti": {
+      "text": "yéti",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "93256ab1eb705187adfd08f516087a99c9e9740eb1e84553d40c80a1214921a7"
+    },
+    "word_yoyo": {
+      "text": "yoyo",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "f1487e013b99e3a6cfd40b601f933d4c7f9511c6b0a28f318533b5ba89071529"
+    },
+    "word_zebre": {
+      "text": "zèbre",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "d1495a5877cf149c51f7d28021dbb4086d8d53e2144d41a2076e57c991c62ecc"
+    },
+    "word_zero": {
+      "text": "zéro",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "2ee2b66a3f1eda4eaf50e2d9a84350519112d05d7dd931d30bec4c8831733945"
+    },
+    "word_zoo": {
+      "text": "zoo",
+      "source": "piper:fr_FR-siwis-medium",
+      "fingerprint": "7e1e8ac1d881215370e72112c5d6e536a9f20ccfcdcb61d256c6dee768dd20a0"
+    }
+  }
+}

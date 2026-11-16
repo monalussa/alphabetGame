@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/pack.schema.json",
+  "code": "xx",
+  "name": "Language name",
+  "locale": "xx-XX",
+  "matchAccentedInitials": false,
+  "audio": {
+    "source": "recording"
+  }
+}

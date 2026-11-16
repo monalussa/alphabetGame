@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="recorder-token" content="__RECORDER_TOKEN__" />
+    <title>Clip Recorder</title>
+    <link rel="stylesheet" href="/recorder.css" />
+    <script type="module" src="/recorder.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Clip recorder · <span id="language"></span></h1>
+      <p id="progress"></p>
+    </header>
+    <main>
+      <section class="current">
+        <p class="clip-id" id="clip-id"></p>
+        <p class="read-this" id="clip-text"></p>
+        <div class="controls">
+          <button type="button" id="record">● Record</button>
+          <button type="button" id="play" disabled>▶ Play</button>
+          <button type="button" id="save" disabled>✓ Save &amp; next</button>
+        </div>
+        <div class="controls">
+          <button type="button" id="previous">← Previous</button>
+          <button type="button" id="next">Next →</button>
+          <button type="button" id="next-missing">Next missing ⇥</button>
+        </div>
+        <p class="status" id="status" role="status"></p>
+        <p class="help">
+          Keys: <kbd>Space</kbd> record/stop · <kbd>P</kbd> play · <kbd>Enter</kbd> save &amp; next ·
+          <kbd>←</kbd>/<kbd>→</kbd> move. Speak clearly and slowly, about 20 cm from the microphone.
+        </p>
+      </section>
+      <ol class="clip-list" id="clip-list"></ol>
+    </main>
+  </body>
+</html>

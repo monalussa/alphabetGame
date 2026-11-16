@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "letters.schema.json",
+  "title": "Letters of one language, in alphabet order",
+  "type": "object",
+  "required": ["letters"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "letters": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/letter" } }
+  },
+  "$defs": {
+    "letter": {
+      "type": "object",
+      "required": ["id", "letter", "display", "name", "keys"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "defs.schema.json#/$defs/id" },
+        "letter": {
+          "description": "Lowercase letter as written, may be a digraph (dž, lj, nj)",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 3
+        },
+        "display": { "$ref": "defs.schema.json#/$defs/shortText" },
+        "name": {
+          "description": "How the letter is spoken (French 'bé', Croatian 'be')",
+          "$ref": "defs.schema.json#/$defs/shortText"
+        },
+        "keys": {
+          "description": "Keyboard keys (event.key, lowercase) that play this letter; empty for digraphs without a key",
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1, "maxLength": 1 }
+        },
+        "skip": {
+          "description": "Not enough good words: the letter is shown but its key plays a fun sound",
+          "const": true
+        },
+        "character": { "$ref": "#/$defs/character" },
+        "words": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 3,
+          "items": { "$ref": "#/$defs/word" }
+        }
+      },
+      "if": { "required": ["skip"] },
+      "then": { "not": { "anyOf": [{ "required": ["words"] }, { "required": ["character"] }] } },
+      "else": { "required": ["words"] }
+    },
+    "character": {
+      "description": "Our own original letter character (never a copy of existing characters)",
+      "type": "object",
+      "required": ["name", "line"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "$ref": "defs.schema.json#/$defs/shortText" },
+        "line": { "$ref": "defs.schema.json#/$defs/shortText" },
+        "speech": {
+          "description": "Text for speech synthesis when it must differ from 'line'",
+          "$ref": "defs.schema.json#/$defs/shortText"
+        }
+      }
+    },
+    "word": {
+      "type": "object",
+      "required": ["id", "text", "concept"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "defs.schema.json#/$defs/id" },
+        "text": { "$ref": "defs.schema.json#/$defs/shortText" },
+        "speech": { "$ref": "defs.schema.json#/$defs/shortText" },
+        "concept": { "$ref": "defs.schema.json#/$defs/id" }
+      }
+    }
+  }
+}

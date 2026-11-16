@@ -6,7 +6,8 @@ letter character or a word picture and plays its sound. No backend. Non-profit, 
 ## Stack
 
 - Svelte 5 + TypeScript (strict) + Vite. Node version in `.nvmrc` (use `nvm use`).
-- Python 3.12 + uv for build-time tools in `tools/` (content validation, TTS audio) — Phase 2.
+- Python 3.12 + uv for build-time tools in `tools/`: content validation, pack build, Piper TTS, recorder.
+  `npm run dev`/`build` run `content:build` first (needs `uv` on PATH).
 - Tests: Vitest (`tests/unit`), Playwright against the production build (`tests/e2e`).
 
 ## Architecture (enforced by eslint-plugin-boundaries)
@@ -43,7 +44,8 @@ config/      build-time config (security headers)
 
 ## Commands
 
-- `npm run dev` · `npm run verify` (format, lint, typecheck, unit tests, build) · `npm run test:e2e`
+- `npm run dev` · `npm run verify` (content build, format, lint, typecheck, unit tests, build) · `npm run test:e2e`
+- Python: `cd tools && uv run --all-groups pytest`, `uv run ruff check .`, `uv run mypy src` (skill `content-authoring`)
 - Definition of done: `npm run verify` and `npm run test:e2e` pass, security-reviewer has no blocking findings.
 
 ## Git workflow

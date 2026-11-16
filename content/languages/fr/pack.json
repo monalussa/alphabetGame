@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/pack.schema.json",
+  "code": "fr",
+  "name": "Français",
+  "locale": "fr-FR",
+  "matchAccentedInitials": true,
+  "audio": {
+    "source": "piper",
+    "voice": "fr_FR-siwis-medium"
+  }
+}

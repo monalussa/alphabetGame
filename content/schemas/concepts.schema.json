@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "concepts.schema.json",
+  "title": "Language-neutral concepts (things with one shared picture)",
+  "type": "object",
+  "required": ["concepts"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "concepts": {
+      "type": "object",
+      "propertyNames": { "$ref": "defs.schema.json#/$defs/id" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "imageId": {
+            "$ref": "defs.schema.json#/$defs/id",
+            "description": "Picture in content/images/ (must have an approved manifest record)"
+          },
+          "emoji": {
+            "$ref": "defs.schema.json#/$defs/emoji",
+            "description": "Placeholder shown until a reviewed picture exists"
+          }
+        },
+        "anyOf": [{ "required": ["imageId"] }, { "required": ["emoji"] }]
+      }
+    }
+  }
+}

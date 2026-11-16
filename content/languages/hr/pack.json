@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/pack.schema.json",
+  "code": "hr",
+  "name": "Hrvatski",
+  "locale": "hr-HR",
+  "matchAccentedInitials": false,
+  "audio": {
+    "source": "recording"
+  }
+}

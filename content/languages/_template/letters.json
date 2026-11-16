@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/letters.schema.json",
+  "letters": [
+    {
+      "id": "a",
+      "letter": "a",
+      "display": "A a",
+      "name": "a",
+      "keys": [
+        "a"
+      ],
+      "words": [
+        {
+          "id": "apple",
+          "text": "apple",
+          "concept": "apple"
+        },
+        {
+          "id": "ant",
+          "text": "ant",
+          "concept": "ant"
+        }
+      ]
+    }
+  ]
+}

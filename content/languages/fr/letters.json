@@ -1,0 +1,769 @@
+{
+  "$schema": "../../schemas/letters.schema.json",
+  "letters": [
+    {
+      "id": "a",
+      "letter": "a",
+      "display": "A a",
+      "name": "a",
+      "keys": [
+        "a"
+      ],
+      "character": {
+        "name": "Madame A",
+        "line": "Bonjour, je suis Madame A !",
+        "speech": "Bonjour, je suis Madame a !"
+      },
+      "words": [
+        {
+          "id": "ananas",
+          "text": "ananas",
+          "concept": "pineapple"
+        },
+        {
+          "id": "avion",
+          "text": "avion",
+          "concept": "airplane"
+        },
+        {
+          "id": "abeille",
+          "text": "abeille",
+          "concept": "bee"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "letter": "b",
+      "display": "B b",
+      "name": "bé",
+      "keys": [
+        "b"
+      ],
+      "character": {
+        "name": "Monsieur B",
+        "line": "Bonjour, je suis Monsieur B !",
+        "speech": "Bonjour, je suis Monsieur bé !"
+      },
+      "words": [
+        {
+          "id": "ballon",
+          "text": "ballon",
+          "concept": "ball"
+        },
+        {
+          "id": "banane",
+          "text": "banane",
+          "concept": "banana"
+        },
+        {
+          "id": "bateau",
+          "text": "bateau",
+          "concept": "boat"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "letter": "c",
+      "display": "C c",
+      "name": "cé",
+      "keys": [
+        "c"
+      ],
+      "character": {
+        "name": "Monsieur C",
+        "line": "Bonjour, je suis Monsieur C !",
+        "speech": "Bonjour, je suis Monsieur cé !"
+      },
+      "words": [
+        {
+          "id": "canard",
+          "text": "canard",
+          "concept": "duck"
+        },
+        {
+          "id": "camion",
+          "text": "camion",
+          "concept": "truck"
+        },
+        {
+          "id": "carotte",
+          "text": "carotte",
+          "concept": "carrot"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "letter": "d",
+      "display": "D d",
+      "name": "dé",
+      "keys": [
+        "d"
+      ],
+      "character": {
+        "name": "Monsieur D",
+        "line": "Bonjour, je suis Monsieur D !",
+        "speech": "Bonjour, je suis Monsieur dé !"
+      },
+      "words": [
+        {
+          "id": "dauphin",
+          "text": "dauphin",
+          "concept": "dolphin"
+        },
+        {
+          "id": "dinosaure",
+          "text": "dinosaure",
+          "concept": "dinosaur"
+        },
+        {
+          "id": "dragon",
+          "text": "dragon",
+          "concept": "dragon"
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "letter": "e",
+      "display": "E e",
+      "name": "e",
+      "keys": [
+        "e"
+      ],
+      "character": {
+        "name": "Madame E",
+        "line": "Bonjour, je suis Madame E !",
+        "speech": "Bonjour, je suis Madame e !"
+      },
+      "words": [
+        {
+          "id": "elephant",
+          "text": "éléphant",
+          "concept": "elephant"
+        },
+        {
+          "id": "etoile",
+          "text": "étoile",
+          "concept": "star"
+        },
+        {
+          "id": "escargot",
+          "text": "escargot",
+          "concept": "snail"
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "letter": "f",
+      "display": "F f",
+      "name": "effe",
+      "keys": [
+        "f"
+      ],
+      "character": {
+        "name": "Monsieur F",
+        "line": "Bonjour, je suis Monsieur F !",
+        "speech": "Bonjour, je suis Monsieur effe !"
+      },
+      "words": [
+        {
+          "id": "fraise",
+          "text": "fraise",
+          "concept": "strawberry"
+        },
+        {
+          "id": "fleur",
+          "text": "fleur",
+          "concept": "flower"
+        },
+        {
+          "id": "fusee",
+          "text": "fusée",
+          "concept": "rocket"
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "letter": "g",
+      "display": "G g",
+      "name": "gé",
+      "keys": [
+        "g"
+      ],
+      "character": {
+        "name": "Monsieur G",
+        "line": "Bonjour, je suis Monsieur G !",
+        "speech": "Bonjour, je suis Monsieur gé !"
+      },
+      "words": [
+        {
+          "id": "gateau",
+          "text": "gâteau",
+          "concept": "cake"
+        },
+        {
+          "id": "guitare",
+          "text": "guitare",
+          "concept": "guitar"
+        },
+        {
+          "id": "gorille",
+          "text": "gorille",
+          "concept": "gorilla"
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "letter": "h",
+      "display": "H h",
+      "name": "ache",
+      "keys": [
+        "h"
+      ],
+      "character": {
+        "name": "Monsieur H",
+        "line": "Bonjour, je suis Monsieur H !",
+        "speech": "Bonjour, je suis Monsieur ache !"
+      },
+      "words": [
+        {
+          "id": "hibou",
+          "text": "hibou",
+          "concept": "owl"
+        },
+        {
+          "id": "herisson",
+          "text": "hérisson",
+          "concept": "hedgehog"
+        },
+        {
+          "id": "helicoptere",
+          "text": "hélicoptère",
+          "concept": "helicopter"
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "letter": "i",
+      "display": "I i",
+      "name": "i",
+      "keys": [
+        "i"
+      ],
+      "character": {
+        "name": "Madame I",
+        "line": "Bonjour, je suis Madame I !",
+        "speech": "Bonjour, je suis Madame i !"
+      },
+      "words": [
+        {
+          "id": "igloo",
+          "text": "igloo",
+          "concept": "igloo"
+        },
+        {
+          "id": "ile",
+          "text": "île",
+          "concept": "island"
+        },
+        {
+          "id": "iguane",
+          "text": "iguane",
+          "concept": "iguana"
+        }
+      ]
+    },
+    {
+      "id": "j",
+      "letter": "j",
+      "display": "J j",
+      "name": "ji",
+      "keys": [
+        "j"
+      ],
+      "character": {
+        "name": "Monsieur J",
+        "line": "Bonjour, je suis Monsieur J !",
+        "speech": "Bonjour, je suis Monsieur ji !"
+      },
+      "words": [
+        {
+          "id": "jupe",
+          "text": "jupe",
+          "concept": "skirt"
+        },
+        {
+          "id": "jus",
+          "text": "jus",
+          "concept": "juice"
+        },
+        {
+          "id": "jaguar",
+          "text": "jaguar",
+          "concept": "jaguar"
+        }
+      ]
+    },
+    {
+      "id": "k",
+      "letter": "k",
+      "display": "K k",
+      "name": "ka",
+      "keys": [
+        "k"
+      ],
+      "character": {
+        "name": "Monsieur K",
+        "line": "Bonjour, je suis Monsieur K !",
+        "speech": "Bonjour, je suis Monsieur ka !"
+      },
+      "words": [
+        {
+          "id": "koala",
+          "text": "koala",
+          "concept": "koala"
+        },
+        {
+          "id": "kangourou",
+          "text": "kangourou",
+          "concept": "kangaroo"
+        },
+        {
+          "id": "kiwi",
+          "text": "kiwi",
+          "concept": "kiwi"
+        }
+      ]
+    },
+    {
+      "id": "l",
+      "letter": "l",
+      "display": "L l",
+      "name": "elle",
+      "keys": [
+        "l"
+      ],
+      "character": {
+        "name": "Monsieur L",
+        "line": "Bonjour, je suis Monsieur L !",
+        "speech": "Bonjour, je suis Monsieur elle !"
+      },
+      "words": [
+        {
+          "id": "lion",
+          "text": "lion",
+          "concept": "lion"
+        },
+        {
+          "id": "lapin",
+          "text": "lapin",
+          "concept": "rabbit"
+        },
+        {
+          "id": "lune",
+          "text": "lune",
+          "concept": "moon"
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "letter": "m",
+      "display": "M m",
+      "name": "emme",
+      "keys": [
+        "m"
+      ],
+      "character": {
+        "name": "Monsieur M",
+        "line": "Bonjour, je suis Monsieur M !",
+        "speech": "Bonjour, je suis Monsieur emme !"
+      },
+      "words": [
+        {
+          "id": "maison",
+          "text": "maison",
+          "concept": "house"
+        },
+        {
+          "id": "mouton",
+          "text": "mouton",
+          "concept": "sheep"
+        },
+        {
+          "id": "moto",
+          "text": "moto",
+          "concept": "motorcycle"
+        }
+      ]
+    },
+    {
+      "id": "n",
+      "letter": "n",
+      "display": "N n",
+      "name": "enne",
+      "keys": [
+        "n"
+      ],
+      "character": {
+        "name": "Monsieur N",
+        "line": "Bonjour, je suis Monsieur N !",
+        "speech": "Bonjour, je suis Monsieur enne !"
+      },
+      "words": [
+        {
+          "id": "nuage",
+          "text": "nuage",
+          "concept": "cloud"
+        },
+        {
+          "id": "nez",
+          "text": "nez",
+          "concept": "nose"
+        },
+        {
+          "id": "nid",
+          "text": "nid",
+          "concept": "nest"
+        }
+      ]
+    },
+    {
+      "id": "o",
+      "letter": "o",
+      "display": "O o",
+      "name": "o",
+      "keys": [
+        "o"
+      ],
+      "character": {
+        "name": "Madame O",
+        "line": "Bonjour, je suis Madame O !",
+        "speech": "Bonjour, je suis Madame o !"
+      },
+      "words": [
+        {
+          "id": "orange",
+          "text": "orange",
+          "concept": "orange"
+        },
+        {
+          "id": "ours",
+          "text": "ours",
+          "concept": "bear"
+        },
+        {
+          "id": "olive",
+          "text": "olive",
+          "concept": "olive"
+        }
+      ]
+    },
+    {
+      "id": "p",
+      "letter": "p",
+      "display": "P p",
+      "name": "pé",
+      "keys": [
+        "p"
+      ],
+      "character": {
+        "name": "Monsieur P",
+        "line": "Bonjour, je suis Monsieur P !",
+        "speech": "Bonjour, je suis Monsieur pé !"
+      },
+      "words": [
+        {
+          "id": "pomme",
+          "text": "pomme",
+          "concept": "apple"
+        },
+        {
+          "id": "poisson",
+          "text": "poisson",
+          "concept": "fish"
+        },
+        {
+          "id": "papillon",
+          "text": "papillon",
+          "concept": "butterfly"
+        }
+      ]
+    },
+    {
+      "id": "q",
+      "letter": "q",
+      "display": "Q q",
+      "name": "qu",
+      "keys": [
+        "q"
+      ],
+      "character": {
+        "name": "Monsieur Q",
+        "line": "Bonjour, je suis Monsieur Q !",
+        "speech": "Bonjour, je suis Monsieur qu !"
+      },
+      "words": [
+        {
+          "id": "quille",
+          "text": "quille",
+          "concept": "bowling_pin"
+        },
+        {
+          "id": "queue",
+          "text": "queue",
+          "concept": "tail"
+        },
+        {
+          "id": "quatre",
+          "text": "quatre",
+          "concept": "four"
+        }
+      ]
+    },
+    {
+      "id": "r",
+      "letter": "r",
+      "display": "R r",
+      "name": "erre",
+      "keys": [
+        "r"
+      ],
+      "character": {
+        "name": "Monsieur R",
+        "line": "Bonjour, je suis Monsieur R !",
+        "speech": "Bonjour, je suis Monsieur erre !"
+      },
+      "words": [
+        {
+          "id": "robot",
+          "text": "robot",
+          "concept": "robot"
+        },
+        {
+          "id": "renard",
+          "text": "renard",
+          "concept": "fox"
+        },
+        {
+          "id": "raisin",
+          "text": "raisin",
+          "concept": "grapes"
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "letter": "s",
+      "display": "S s",
+      "name": "esse",
+      "keys": [
+        "s"
+      ],
+      "character": {
+        "name": "Monsieur S",
+        "line": "Bonjour, je suis Monsieur S !",
+        "speech": "Bonjour, je suis Monsieur esse !"
+      },
+      "words": [
+        {
+          "id": "soleil",
+          "text": "soleil",
+          "concept": "sun"
+        },
+        {
+          "id": "serpent",
+          "text": "serpent",
+          "concept": "snake"
+        },
+        {
+          "id": "souris",
+          "text": "souris",
+          "concept": "mouse"
+        }
+      ]
+    },
+    {
+      "id": "t",
+      "letter": "t",
+      "display": "T t",
+      "name": "té",
+      "keys": [
+        "t"
+      ],
+      "character": {
+        "name": "Monsieur T",
+        "line": "Bonjour, je suis Monsieur T !",
+        "speech": "Bonjour, je suis Monsieur té !"
+      },
+      "words": [
+        {
+          "id": "tortue",
+          "text": "tortue",
+          "concept": "turtle"
+        },
+        {
+          "id": "train",
+          "text": "train",
+          "concept": "train"
+        },
+        {
+          "id": "tomate",
+          "text": "tomate",
+          "concept": "tomato"
+        }
+      ]
+    },
+    {
+      "id": "u",
+      "letter": "u",
+      "display": "U u",
+      "name": "u",
+      "keys": [
+        "u"
+      ],
+      "character": {
+        "name": "Madame U",
+        "line": "Bonjour, je suis Madame U !",
+        "speech": "Bonjour, je suis Madame u !"
+      },
+      "words": [
+        {
+          "id": "ukulele",
+          "text": "ukulélé",
+          "concept": "ukulele"
+        },
+        {
+          "id": "usine",
+          "text": "usine",
+          "concept": "factory"
+        },
+        {
+          "id": "uniforme",
+          "text": "uniforme",
+          "concept": "uniform"
+        }
+      ]
+    },
+    {
+      "id": "v",
+      "letter": "v",
+      "display": "V v",
+      "name": "vé",
+      "keys": [
+        "v"
+      ],
+      "character": {
+        "name": "Monsieur V",
+        "line": "Bonjour, je suis Monsieur V !",
+        "speech": "Bonjour, je suis Monsieur vé !"
+      },
+      "words": [
+        {
+          "id": "vache",
+          "text": "vache",
+          "concept": "cow"
+        },
+        {
+          "id": "velo",
+          "text": "vélo",
+          "concept": "bicycle"
+        },
+        {
+          "id": "voiture",
+          "text": "voiture",
+          "concept": "car"
+        }
+      ]
+    },
+    {
+      "id": "w",
+      "letter": "w",
+      "display": "W w",
+      "name": "double vé",
+      "keys": [
+        "w"
+      ],
+      "skip": true
+    },
+    {
+      "id": "x",
+      "letter": "x",
+      "display": "X x",
+      "name": "ixe",
+      "keys": [
+        "x"
+      ],
+      "skip": true
+    },
+    {
+      "id": "y",
+      "letter": "y",
+      "display": "Y y",
+      "name": "i grec",
+      "keys": [
+        "y"
+      ],
+      "character": {
+        "name": "Monsieur I grec",
+        "line": "Bonjour, je suis Monsieur I grec !",
+        "speech": "Bonjour, je suis Monsieur i grec !"
+      },
+      "words": [
+        {
+          "id": "yaourt",
+          "text": "yaourt",
+          "concept": "yogurt"
+        },
+        {
+          "id": "yoyo",
+          "text": "yoyo",
+          "concept": "yoyo"
+        },
+        {
+          "id": "yeti",
+          "text": "yéti",
+          "concept": "yeti"
+        }
+      ]
+    },
+    {
+      "id": "z",
+      "letter": "z",
+      "display": "Z z",
+      "name": "zède",
+      "keys": [
+        "z"
+      ],
+      "character": {
+        "name": "Monsieur Z",
+        "line": "Bonjour, je suis Monsieur Z !",
+        "speech": "Bonjour, je suis Monsieur zède !"
+      },
+      "words": [
+        {
+          "id": "zebre",
+          "text": "zèbre",
+          "concept": "zebra"
+        },
+        {
+          "id": "zoo",
+          "text": "zoo",
+          "concept": "zoo"
+        },
+        {
+          "id": "zero",
+          "text": "zéro",
+          "concept": "zero"
+        }
+      ]
+    }
+  ]
+}

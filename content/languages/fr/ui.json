@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/ui.schema.json",
+  "strings": {
+    "app.title": "Jeu des lettres",
+    "start.play": "Jouer",
+    "game.smash.title": "Tape les lettres",
+    "language.label": "Langue",
+    "parent.hold": "Parents : maintenir appuyé"
+  }
+}

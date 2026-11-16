@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/pack.schema.json",
+  "code": "en",
+  "name": "English",
+  "locale": "en-US",
+  "matchAccentedInitials": false,
+  "audio": {
+    "source": "piper",
+    "voice": "en_US-ljspeech-high"
+  }
+}

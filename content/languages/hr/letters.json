@@ -1,0 +1,721 @@
+{
+  "$schema": "../../schemas/letters.schema.json",
+  "letters": [
+    {
+      "id": "a",
+      "letter": "a",
+      "display": "A a",
+      "name": "a",
+      "keys": [
+        "a"
+      ],
+      "words": [
+        {
+          "id": "auto",
+          "text": "auto",
+          "concept": "car"
+        },
+        {
+          "id": "avion",
+          "text": "avion",
+          "concept": "airplane"
+        },
+        {
+          "id": "ananas",
+          "text": "ananas",
+          "concept": "pineapple"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "letter": "b",
+      "display": "B b",
+      "name": "be",
+      "keys": [
+        "b"
+      ],
+      "words": [
+        {
+          "id": "banana",
+          "text": "banana",
+          "concept": "banana"
+        },
+        {
+          "id": "brod",
+          "text": "brod",
+          "concept": "boat"
+        },
+        {
+          "id": "balon",
+          "text": "balon",
+          "concept": "balloon"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "letter": "c",
+      "display": "C c",
+      "name": "ce",
+      "keys": [
+        "c"
+      ],
+      "words": [
+        {
+          "id": "cipela",
+          "text": "cipela",
+          "concept": "shoe"
+        },
+        {
+          "id": "cvijet",
+          "text": "cvijet",
+          "concept": "flower"
+        },
+        {
+          "id": "cirkus",
+          "text": "cirkus",
+          "concept": "circus"
+        }
+      ]
+    },
+    {
+      "id": "ch",
+      "letter": "č",
+      "display": "Č č",
+      "name": "če",
+      "keys": [
+        "č"
+      ],
+      "words": [
+        {
+          "id": "cokolada",
+          "text": "čokolada",
+          "concept": "chocolate"
+        },
+        {
+          "id": "carapa",
+          "text": "čarapa",
+          "concept": "sock"
+        },
+        {
+          "id": "casa",
+          "text": "čaša",
+          "concept": "glass"
+        }
+      ]
+    },
+    {
+      "id": "cj",
+      "letter": "ć",
+      "display": "Ć ć",
+      "name": "će",
+      "keys": [
+        "ć"
+      ],
+      "skip": true
+    },
+    {
+      "id": "d",
+      "letter": "d",
+      "display": "D d",
+      "name": "de",
+      "keys": [
+        "d"
+      ],
+      "words": [
+        {
+          "id": "duga",
+          "text": "duga",
+          "concept": "rainbow"
+        },
+        {
+          "id": "dupin",
+          "text": "dupin",
+          "concept": "dolphin"
+        },
+        {
+          "id": "dinosaur",
+          "text": "dinosaur",
+          "concept": "dinosaur"
+        }
+      ]
+    },
+    {
+      "id": "dzh",
+      "letter": "dž",
+      "display": "Dž dž",
+      "name": "dže",
+      "keys": [],
+      "words": [
+        {
+          "id": "dzem",
+          "text": "džem",
+          "concept": "jam"
+        },
+        {
+          "id": "dzep",
+          "text": "džep",
+          "concept": "pocket"
+        },
+        {
+          "id": "dzungla",
+          "text": "džungla",
+          "concept": "jungle"
+        }
+      ]
+    },
+    {
+      "id": "dj",
+      "letter": "đ",
+      "display": "Đ đ",
+      "name": "đe",
+      "keys": [
+        "đ"
+      ],
+      "words": [
+        {
+          "id": "dak",
+          "text": "đak",
+          "concept": "pupil"
+        },
+        {
+          "id": "dumbir",
+          "text": "đumbir",
+          "concept": "ginger"
+        },
+        {
+          "id": "djurdjica",
+          "text": "đurđica",
+          "concept": "lily_of_the_valley"
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "letter": "e",
+      "display": "E e",
+      "name": "e",
+      "keys": [
+        "e"
+      ],
+      "skip": true
+    },
+    {
+      "id": "f",
+      "letter": "f",
+      "display": "F f",
+      "name": "ef",
+      "keys": [
+        "f"
+      ],
+      "words": [
+        {
+          "id": "flamingo",
+          "text": "flamingo",
+          "concept": "flamingo"
+        },
+        {
+          "id": "frula",
+          "text": "frula",
+          "concept": "flute"
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "letter": "g",
+      "display": "G g",
+      "name": "ge",
+      "keys": [
+        "g"
+      ],
+      "words": [
+        {
+          "id": "gljiva",
+          "text": "gljiva",
+          "concept": "mushroom"
+        },
+        {
+          "id": "grozdje",
+          "text": "grožđe",
+          "concept": "grapes"
+        },
+        {
+          "id": "gitara",
+          "text": "gitara",
+          "concept": "guitar"
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "letter": "h",
+      "display": "H h",
+      "name": "ha",
+      "keys": [
+        "h"
+      ],
+      "words": [
+        {
+          "id": "hobotnica",
+          "text": "hobotnica",
+          "concept": "octopus"
+        },
+        {
+          "id": "hrcak",
+          "text": "hrčak",
+          "concept": "hamster"
+        },
+        {
+          "id": "helikopter",
+          "text": "helikopter",
+          "concept": "helicopter"
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "letter": "i",
+      "display": "I i",
+      "name": "i",
+      "keys": [
+        "i"
+      ],
+      "words": [
+        {
+          "id": "iglu",
+          "text": "iglu",
+          "concept": "igloo"
+        },
+        {
+          "id": "igracka",
+          "text": "igračka",
+          "concept": "toy"
+        },
+        {
+          "id": "ivancica",
+          "text": "ivančica",
+          "concept": "daisy"
+        }
+      ]
+    },
+    {
+      "id": "j",
+      "letter": "j",
+      "display": "J j",
+      "name": "je",
+      "keys": [
+        "j"
+      ],
+      "words": [
+        {
+          "id": "jabuka",
+          "text": "jabuka",
+          "concept": "apple"
+        },
+        {
+          "id": "jaje",
+          "text": "jaje",
+          "concept": "egg"
+        },
+        {
+          "id": "jez",
+          "text": "jež",
+          "concept": "hedgehog"
+        }
+      ]
+    },
+    {
+      "id": "k",
+      "letter": "k",
+      "display": "K k",
+      "name": "ka",
+      "keys": [
+        "k"
+      ],
+      "words": [
+        {
+          "id": "kuca",
+          "text": "kuća",
+          "concept": "house"
+        },
+        {
+          "id": "krava",
+          "text": "krava",
+          "concept": "cow"
+        },
+        {
+          "id": "kisobran",
+          "text": "kišobran",
+          "concept": "umbrella"
+        }
+      ]
+    },
+    {
+      "id": "l",
+      "letter": "l",
+      "display": "L l",
+      "name": "el",
+      "keys": [
+        "l"
+      ],
+      "words": [
+        {
+          "id": "lav",
+          "text": "lav",
+          "concept": "lion"
+        },
+        {
+          "id": "lopta",
+          "text": "lopta",
+          "concept": "ball"
+        },
+        {
+          "id": "limun",
+          "text": "limun",
+          "concept": "lemon"
+        }
+      ]
+    },
+    {
+      "id": "lj",
+      "letter": "lj",
+      "display": "Lj lj",
+      "name": "lje",
+      "keys": [],
+      "words": [
+        {
+          "id": "ljuljacka",
+          "text": "ljuljačka",
+          "concept": "swing"
+        },
+        {
+          "id": "ljestve",
+          "text": "ljestve",
+          "concept": "ladder"
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "letter": "m",
+      "display": "M m",
+      "name": "em",
+      "keys": [
+        "m"
+      ],
+      "words": [
+        {
+          "id": "macka",
+          "text": "mačka",
+          "concept": "cat"
+        },
+        {
+          "id": "mis",
+          "text": "miš",
+          "concept": "mouse"
+        },
+        {
+          "id": "mrkva",
+          "text": "mrkva",
+          "concept": "carrot"
+        }
+      ]
+    },
+    {
+      "id": "n",
+      "letter": "n",
+      "display": "N n",
+      "name": "en",
+      "keys": [
+        "n"
+      ],
+      "words": [
+        {
+          "id": "nos",
+          "text": "nos",
+          "concept": "nose"
+        },
+        {
+          "id": "noga",
+          "text": "noga",
+          "concept": "leg"
+        },
+        {
+          "id": "naocale",
+          "text": "naočale",
+          "concept": "glasses"
+        }
+      ]
+    },
+    {
+      "id": "nj",
+      "letter": "nj",
+      "display": "Nj nj",
+      "name": "nje",
+      "keys": [],
+      "skip": true
+    },
+    {
+      "id": "o",
+      "letter": "o",
+      "display": "O o",
+      "name": "o",
+      "keys": [
+        "o"
+      ],
+      "words": [
+        {
+          "id": "oko",
+          "text": "oko",
+          "concept": "eye"
+        },
+        {
+          "id": "ovca",
+          "text": "ovca",
+          "concept": "sheep"
+        },
+        {
+          "id": "oblak",
+          "text": "oblak",
+          "concept": "cloud"
+        }
+      ]
+    },
+    {
+      "id": "p",
+      "letter": "p",
+      "display": "P p",
+      "name": "pe",
+      "keys": [
+        "p"
+      ],
+      "words": [
+        {
+          "id": "pas",
+          "text": "pas",
+          "concept": "dog"
+        },
+        {
+          "id": "patka",
+          "text": "patka",
+          "concept": "duck"
+        },
+        {
+          "id": "puz",
+          "text": "puž",
+          "concept": "snail"
+        }
+      ]
+    },
+    {
+      "id": "r",
+      "letter": "r",
+      "display": "R r",
+      "name": "er",
+      "keys": [
+        "r"
+      ],
+      "words": [
+        {
+          "id": "riba",
+          "text": "riba",
+          "concept": "fish"
+        },
+        {
+          "id": "ruza",
+          "text": "ruža",
+          "concept": "rose"
+        },
+        {
+          "id": "raketa",
+          "text": "raketa",
+          "concept": "rocket"
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "letter": "s",
+      "display": "S s",
+      "name": "es",
+      "keys": [
+        "s"
+      ],
+      "words": [
+        {
+          "id": "sunce",
+          "text": "sunce",
+          "concept": "sun"
+        },
+        {
+          "id": "slon",
+          "text": "slon",
+          "concept": "elephant"
+        },
+        {
+          "id": "sova",
+          "text": "sova",
+          "concept": "owl"
+        }
+      ]
+    },
+    {
+      "id": "sh",
+      "letter": "š",
+      "display": "Š š",
+      "name": "eš",
+      "keys": [
+        "š"
+      ],
+      "words": [
+        {
+          "id": "sesir",
+          "text": "šešir",
+          "concept": "hat"
+        },
+        {
+          "id": "skoljka",
+          "text": "školjka",
+          "concept": "seashell"
+        },
+        {
+          "id": "stenac",
+          "text": "štenac",
+          "concept": "puppy"
+        }
+      ]
+    },
+    {
+      "id": "t",
+      "letter": "t",
+      "display": "T t",
+      "name": "te",
+      "keys": [
+        "t"
+      ],
+      "words": [
+        {
+          "id": "tigar",
+          "text": "tigar",
+          "concept": "tiger"
+        },
+        {
+          "id": "torta",
+          "text": "torta",
+          "concept": "cake"
+        },
+        {
+          "id": "traktor",
+          "text": "traktor",
+          "concept": "tractor"
+        }
+      ]
+    },
+    {
+      "id": "u",
+      "letter": "u",
+      "display": "U u",
+      "name": "u",
+      "keys": [
+        "u"
+      ],
+      "words": [
+        {
+          "id": "uho",
+          "text": "uho",
+          "concept": "ear"
+        },
+        {
+          "id": "usta",
+          "text": "usta",
+          "concept": "mouth"
+        },
+        {
+          "id": "uze",
+          "text": "uže",
+          "concept": "rope"
+        }
+      ]
+    },
+    {
+      "id": "v",
+      "letter": "v",
+      "display": "V v",
+      "name": "ve",
+      "keys": [
+        "v"
+      ],
+      "words": [
+        {
+          "id": "vlak",
+          "text": "vlak",
+          "concept": "train"
+        },
+        {
+          "id": "vjeverica",
+          "text": "vjeverica",
+          "concept": "squirrel"
+        },
+        {
+          "id": "vuk",
+          "text": "vuk",
+          "concept": "wolf"
+        }
+      ]
+    },
+    {
+      "id": "z",
+      "letter": "z",
+      "display": "Z z",
+      "name": "ze",
+      "keys": [
+        "z"
+      ],
+      "words": [
+        {
+          "id": "zec",
+          "text": "zec",
+          "concept": "rabbit"
+        },
+        {
+          "id": "zmija",
+          "text": "zmija",
+          "concept": "snake"
+        },
+        {
+          "id": "zvijezda",
+          "text": "zvijezda",
+          "concept": "star"
+        }
+      ]
+    },
+    {
+      "id": "zh",
+      "letter": "ž",
+      "display": "Ž ž",
+      "name": "že",
+      "keys": [
+        "ž"
+      ],
+      "words": [
+        {
+          "id": "zaba",
+          "text": "žaba",
+          "concept": "frog"
+        },
+        {
+          "id": "zirafa",
+          "text": "žirafa",
+          "concept": "giraffe"
+        },
+        {
+          "id": "zlica",
+          "text": "žlica",
+          "concept": "spoon"
+        }
+      ]
+    }
+  ]
+}

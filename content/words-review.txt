@@ -50,19 +50,19 @@ A  : auto, avion, ananas            | autobus, anđeo
 B  : banana, brod, balon            | bicikl, boca, baka
 C  : cipela, cvijet, cirkus         | crv, cigla
 Č  : čokolada, čarapa, čaša         | čamac, češalj
-Ć  : SKIP (only ćevapi, ćup; add a word if you know a good one)
+Ć  : SKIP (only ćevapi; add a word if you know a good one)
 D  : duga, dupin, dinosaur          | drvo, djed
 DŽ : džem, džep, džungla            | džemper, džip   (no key: on-screen strip)
 Đ  : đak, đumbir, đurđica           | đon   (weak letter)
 E  : SKIP (only ekran, euro: weak, not concrete for kids)
-F  : foka, flamingo, frula          | flomaster, fen
+F  : flamingo, frula          | flomaster, fen
 G  : gljiva, grožđe, gitara         | guska, gusjenica
 H  : hobotnica, hrčak, helikopter   | hlače, hamburger
 I  : iglu, igračka, ivančica        | iguana, insekt
 J  : jabuka, jaje, jež              | jastuk, jakna
 K  : kuća, krava, kišobran          | konj, kornjača, kruh
 L  : lav, lopta, limun              | lisica, list
-LJ : ljuljačka, ljestve, ljubičica  | ljiljan   (no key: on-screen strip)
+LJ : ljuljačka, ljestve,   | ljiljan   (no key: on-screen strip)
 M  : mačka, miš, mrkva              | majmun, med
 N  : nos, noga, naočale             | nilski konj, nebo
 NJ : SKIP (only njuška is strong)
@@ -70,8 +70,8 @@ O  : oko, ovca, oblak               | olovka, orah
 P  : pas, patka, puž                | ptica, pile, papiga
 R  : riba, ruža, raketa             | ruka, rak
 S  : sunce, slon, sova              | sir, sat
-Š  : šešir, školjka, štene          | šuma, šljiva
-T  : tigar, torta, traktor          | tikva, telefon
+Š  : šešir, školjka, štenac          | šuma, šljiva
+T  : tigar, torta, traktor          | 
 U  : uho, usta, uže                 | (weak letter)
 V  : vlak, vjeverica, vuk           | vatra, vaza, voda
 Z  : zec, zmija, zvijezda           | zebra, zub

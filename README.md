@@ -19,4 +19,4 @@ npm run test:e2e   # Playwright against the production build
 ```
 
 See `CLAUDE.md` for architecture and rules, `SECURITY.md` for the threat model.
-Status: Phase 1 (scaffold). Word list under review in `content/words-review.txt`.
+Status: Phase 2 (content pipeline). FR + EN audio generated with Piper; HR waiting for recordings.

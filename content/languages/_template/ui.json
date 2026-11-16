@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/ui.schema.json",
+  "strings": {
+    "app.title": "",
+    "start.play": "",
+    "game.smash.title": "",
+    "language.label": "",
+    "parent.hold": ""
+  }
+}
